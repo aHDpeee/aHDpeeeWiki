@@ -1,5 +1,5 @@
 document.getElementById("citates").addEventListener('click', async () =>{
-    const resopnse = await fetch('https://github.com/aHDpeee/aHDpeeeWiki/tree/main/RepoSyncFolder/citates.txt');
+    const resopnse = await fetch('https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/citates.md');
     const text = await resopnse.text();
     const lines = text.split('\n---').filter(line => line.trim()!=='');
     const randomLine = lines[Math.floor(Math.random()*lines.length)];
@@ -22,8 +22,8 @@ const reg = {
 
 blocks.forEach(async (element) => {
     try {
-        const response = await fetch(`https://github.com/aHDpeee/aHDpeeeWiki/tree/main/RepoSyncFolder/${element}.md`);
-        console.log(`https://github.com/aHDpeee/aHDpeeeWiki/tree/main/RepoSyncFolder/${element}.md`);
+        const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
+        console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
 
         let text = await response.text();
         
