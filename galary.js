@@ -6,6 +6,7 @@ const cliderMain = new Swiper ('.slider_main', {
         sensitivity: 5, // Увеличь это значение для ускорения
     },
     parallax: true,
+    lazy: true,
     breakpoints: {
         0: {
             slidesPerView: 2.5,
@@ -60,20 +61,20 @@ async function populateSwiper() {
 populateSwiper();
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".slider_img");
+// document.addEventListener("DOMContentLoaded", () => {
+//     const slides = document.querySelectorAll(".slider_img");
   
-    slides.forEach((slide) => {
-      // Создаем временное изображение для проверки размеров
-      const img = new Image();
-      const bgImage = slide.style.backgroundImage.slice(5, -2); // Извлекаем URL из "url(...)"
-      img.src = bgImage;
+//     slides.forEach((slide) => {
+//       // Создаем временное изображение для проверки размеров
+//       const img = new Image();
+//       const bgImage = slide.style.backgroundImage.slice(5, -2); // Извлекаем URL из "url(...)"
+//       img.src = bgImage;
   
-      img.onload = () => {
-        const isVertical = img.height > img.width;
-        if (isVertical) {
-          slide.classList.add("vertical");
-        }
-      };
-    });
-  });
+//       img.onload = () => {
+//         const isVertical = img.height > img.width;
+//         if (isVertical) {
+//           slide.classList.add("vertical");
+//         }
+//       };
+//     });
+//   });
