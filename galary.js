@@ -17,3 +17,44 @@ const cliderMain = new Swiper ('.slider_main', {
         }
     }
 })
+
+// Базовый URL для изображений
+const baseUrl = "https://aHDpeee.github.io/aHDpeeeWiki/images/";
+// URL для GitHub API (замените <username> и <repo> на свои)
+const apiUrl = "https://api.github.com/repos/aHDpeee/aHDpeeeWiki/contents/images";
+
+// Находим контейнер
+const swiperWrapper = document.querySelector(".swiper-wrapper.swiper__wrapper");
+
+async function populateSwiper() {
+  try {
+    // Получаем список файлов через GitHub API
+    const response = await fetch(apiUrl);
+    if (!response.ok) throw new Error("Ошибка при запросе к API");
+    const files = await response.json();
+
+    // Фильтруем только изображения
+    const imageFiles = files
+      .filter((file) => /\.(jpg|jpeg|png|gif)$/i.test(file.name))
+      .map((file) => file.name);
+
+    // Наполняем контейнер слайдами
+    imageFiles.forEach((fileName) => {
+      const slide = document.createElement("div");
+      slide.className = "swiper-slide slider__item";
+
+      const imgDiv = document.createElement("div");
+      imgDiv.className = "slider_img";
+      imgDiv.setAttribute("data-swiper-parallax", "20%");
+      imgDiv.style.backgroundImage = `url(${baseUrl}${fileName})`;
+
+      slide.appendChild(imgDiv);
+      swiperWrapper.appendChild(slide);
+    });
+  } catch (error) {
+    console.error("Ошибка:", error);
+  }
+}
+
+// Запускаем функцию
+populateSwiper();
