@@ -1,7 +1,7 @@
 document.getElementById("citates").addEventListener('click', async () =>{
     const resopnse = await fetch('RepoSyncFolder/citates.txt');
     const text = await resopnse.text();
-    const lines = text.split('\n################################').filter(line => line.trim()!=='');
+    const lines = text.split('\n---').filter(line => line.trim()!=='');
     const randomLine = lines[Math.floor(Math.random()*lines.length)];
     typeWriterEffect(randomLine.trim(), "citates");
 });
@@ -22,8 +22,8 @@ const reg = {
 
 blocks.forEach(async (element) => {
     try {
-        const response = await fetch(`./data/${element}.md`);
-        console.log(`./data/${element}.md`);
+        const response = await fetch(`./RepoSyncFolder/${element}.md`);
+        console.log(`./RepoSyncFolder/${element}.md`);
 
         let text = await response.text();
         
