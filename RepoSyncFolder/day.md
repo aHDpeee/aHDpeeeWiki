@@ -1,6 +1,6 @@
 # [[What was 10 week about]]
 # Best version plan
-+ [ ] 789789778
++ [ ] 
 *Make 2 of
 # Just plan
 - [ ] 
