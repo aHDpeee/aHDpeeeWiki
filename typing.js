@@ -22,8 +22,8 @@ const reg = {
 
 blocks.forEach(async (element) => {
     try {
-        const response = await fetch(`./RepoSyncFolder/${element}.md`);
-        console.log(`./RepoSyncFolder/${element}.md`);
+        const response = await fetch(`https://github.com/aHDpeee/aHDpeeeWiki/tree/main/RepoSyncFolder/${element}.md`);
+        console.log(`https://github.com/aHDpeee/aHDpeeeWiki/tree/main/RepoSyncFolder/${element}.md`);
 
         let text = await response.text();
         
