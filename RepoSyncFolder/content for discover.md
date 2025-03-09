@@ -7,11 +7,6 @@
 - [ ] Рэй Бредбери
 - [ ] Беляев
 
-
-
-
-# Список игр
-
 Happy Gamehttps://store.steampowered.com/app/1206060/Happy_Game/
 Маленький мальчик засыпает и попадает в ужасный кошмар. Сможете ли вы развеселить его?
 2. [Follow the Meaning](https://store.steampowered.com/app/2720280/Follow_the_meaning/)
