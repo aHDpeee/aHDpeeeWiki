@@ -1,7 +1,7 @@
-let swipeX, swipeY
-let arrow
-let pos = [0, 50, 0, -50]
-let active = 2, blocks = ["people", "content for discover", "day", "ideas-projects"]
+let swipeX, swipeY;
+let arrow;
+let pos = [0, 50, 0, -50], trX = [0, -1, -1, -2];
+let active = 2, pages = ["people", "content for discover", "day", "ideas-projects"]
 document.getElementById("swipe3d").addEventListener('touchstart', (e)=>{
     swipeX = e.touches[0].clientX
     swipeY = e.touches[0].clientY
@@ -31,19 +31,19 @@ document.addEventListener('keydown', (e) => {
 function updateActive(direct){
     
     opa = [1, .2, 0, .2]
-    for (let i =0; i<blocks.length; i++){
-        style = document.getElementById(blocks[(active + i) % blocks.length]).style
-        style.transform = `rotateY(${((i+2)%4-2)*90}deg)`
+    for (let i =0; i<pages.length; i++){
+        style = document.getElementById(pages[(active + i) % pages.length]).style
+        style.transform = `rotateY(${((i+2)%4-2)*90}deg) translateX(${trX[i]*50}%)`
         style.left = `${pos[i]}%`
         style.opacity = opa[i]
-        style.zIndex  = `${(i-3)*50}`
-        console.log(i, style.zIndex, blocks[(active + i) % blocks.length])
+        style.zIndex  = `${(i*-1)*50}`
+        console.log(i, style.zIndex, pages[(active + i) % pages.length])
     }
 }
 
-document.getElementById(blocks[active]).style.opacity = 1
+document.getElementById(pages[active]).style.opacity = 1
 for (let i =-2; i<2; i++){
-    style = document.getElementById(blocks[(active + i) % blocks.length]).style
+    style = document.getElementById(pages[(active + i) % pages.length]).style
     style.left = `${pos[i+2]}%`
     style.transform = `rotateY(${90*i}deg)`
 
