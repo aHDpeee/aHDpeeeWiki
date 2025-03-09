@@ -86,7 +86,6 @@ https://youtube.com/shorts/MNVS_fQhHDU?si=hHmuaxvhn3qVKG87
 - [ ] [Видео 7](https://youtube.com/shorts/1cO_M2iVqTY?si=ALB42OK2Wb003j2Z)
 - [ ] [Видео 8](https://youtube.com/shorts/7OIslnVmDvU?si=kteZQ4aCyWmhpKVr)
 
-## Ре
 # Статьи
 + математика
 + философия
