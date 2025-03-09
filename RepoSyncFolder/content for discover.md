@@ -44,7 +44,6 @@ https://youtu.be/wvJ3EsBwXsY?si=bQ5wUiEKNWckAAjx
 https://youtube.com/shorts/MNVS_fQhHDU?si=hHmuaxvhn3qVKG87
 
 [Journey - обзоры и оценки игры, даты выхода DLC, трейлеры, описание](https://www.igromania.ru/game/9888/Journey.html)
-
 # Сериалы
 ## смотреть
 - [ ] [как гравити фолз](https://youtu.be/MGUXcgGh-SI?si=4jGfTyMtcvIqHKfu)
