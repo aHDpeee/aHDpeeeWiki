@@ -78,7 +78,7 @@ https://youtube.com/shorts/MNVS_fQhHDU?si=hHmuaxvhn3qVKG87
 	*В элитный физико-математический лицей из обычной школы переходит работать учительница литературы Антонина Сергеевна. С удивлением она замечает, сколь уважительно здесь относятся к ученикам — как к полноценным творческим личностям.*
 - [x] [Limitless](https://youtube.com/shorts/uLF5REI1Fzg?si=ujsfp5scpolDqGbY)
 
-https://youtube.com/shorts/7OIslnVmDvU?si=kteZQ4aCyWmhpKVr
+https://youtube.com/shorts/7OIslnVmDvU?si=kteZQ4aCyWmhpKVr/
 # Статьи
 + математика
 + философия
