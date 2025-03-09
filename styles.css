@@ -24,6 +24,7 @@ h1 {
 }
 p {
     margin-bottom: 30px;
+    overflow-wrap: anywhere;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
     display: grid;
     width: 90%;
     transform-style: preserve-3d;
-    margin: 5%;
+    margin: 5%;  
 }
 .noteblock {
     background-color: #2a2a2a;
@@ -53,7 +54,6 @@ body {
     transition: var(--transition);
     width: 100%;
     /* background-color: black; */
-    word-wrap: break-word;
     will-change: transform;
     position: relative;
 }
@@ -66,42 +66,41 @@ body {
     height: max-content;
     width: 100%;
     z-index: 0;
+    will-change: transform;
 }
 .slider {
     transform: rotate(15deg);
     overflow: visible!important;
-    height: max-content!important;
 }
 .swiper__wrapper {
     transition: var(--transition)!important;
-    /* height: 50vh!important; */
-    height: 50vw!important;
+    height: 40vh!important;
     will-change: transform;
 }
 .slider__item {
-    max-height: 40vh;
-    width: 20vh;
+    height: 100%;
+    /* width: 100px; */
     overflow: hidden;
     position: relative;
 }
 
-.slider__item :hover{
+/* .slider__item :hover{
     width: 30vh;
-}
+} */
 
 .slider_img {
-    width: auto;
+    width: 50vh;
     height: 100%;
     background-size: cover;
     position: absolute;
-    left: -50%;
+    /* left: -50%; */
     transition: var(--transition)!important;
     will-change: transform;
 }
 
-.slider_img.vertical {
+/* .slider_img.vertical {
     transform: rotate(90deg); /* Поворот на 90 градусов для вертикальных изображений */
-  }
+
 
 .citates {
     text-align: center;
@@ -119,9 +118,19 @@ body {
 }
 
 @media (orientation: landscape) {
-    body {
+    #swipe3d {
         width: 50%;
         margin: 0 auto;
+    }
+    .citates{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    h1  {
+        width: 50%;
+        margin: 0 auto;
+        
     }
 }
 

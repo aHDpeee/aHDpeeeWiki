@@ -1,7 +1,7 @@
 let swipeX, swipeY
 let arrow
 let pos = [0, 50, 0, -50]
-let active = 2, blocks = ["day", "ideas-projects", "people", "content for discover"]
+let active = 2, blocks = ["people", "content for discover", "day", "ideas-projects"]
 document.getElementById("swipe3d").addEventListener('touchstart', (e)=>{
     swipeX = e.touches[0].clientX
     swipeY = e.touches[0].clientY
