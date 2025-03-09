@@ -96,7 +96,7 @@
 ---
 [[Файлы/Obsidian Plugin|Plugin for Obsidian to translate worse before symbols (number of words), or read file and swap line with specific symbols to the definition, would work with block of cod or smth like this]]
 Темы: Программирование, инструменты, Obsidian
-++++++++++++++
+
 ---
 [[Файлы/Программа для именования C++ файлов|I need a program that would be name my cpp files!!! as soon as it possible..]]
 Темы: Программирование, автоматизация, C++
