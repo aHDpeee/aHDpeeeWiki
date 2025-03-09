@@ -38,8 +38,7 @@
 * [One shot](https://store.steampowered.com/app/420530/OneShot/)
 * [Who is Lila](https://store.steampowered.com/app/1083830/Who_is_Lila/)
 
-### Визуальные новеллы и трейлеры
-* [Визуальная новелла: история создания](https://youtube.com/shorts/MNVS_fQhHDU?si=hHmuaxvhn3qVKG87)
+
 * [Journey - обзоры и оценки игры, даты выхода DLC, трейлеры, описание](https://www.igromania.ru/game/9888/Journey.html)
 
 ## Рекомендации
