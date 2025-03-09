@@ -89,9 +89,11 @@
 [[Файлы/Нейросеть для почерка|Нейросеть для моего почерка]]
 Темы: Искусственный интеллект, персонализация, технологии
 
+---
 [[Файлы/Опыт в сюжете|Опыт в сюжете]]
 Темы: Писательство, опыт, развитие сюжета
 
+---
 [[Файлы/Obsidian Plugin|Plugin for Obsidian to translate worse before symbols (number of words), or read file and swap line with specific symbols to the definition, would work with block of cod or smth like this]]
 Темы: Программирование, инструменты, Obsidian
 
