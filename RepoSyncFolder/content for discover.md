@@ -75,7 +75,6 @@ https://youtube.com/shorts/MNVS_fQhHDU?si=hHmuaxvhn3qVKG87
   *В элитный физико-математический лицей из обычной школы переходит работать учительница литературы Антонина Сергеевна. С удивлением она замечает, сколь уважительно здесь относятся к ученикам — как к полноценным творческим личностям.*
 
 ### Ссылки на видео
-- [ ] [Limitless](https://youtube.com/shorts/uLF5REI1Fzg?si=ujsfp5scpolDqGbY)
 - [ ] [Человек-паук](https://youtube.com/shorts/-F0q_gG8ExU?si=-WJUHaIy98KGTn9j)
 - [ ] [Видео 1](https://youtube.com/shorts/35D4l5Yddls?si=rhvM00yLCNDuEHci)
 - [ ] [Видео 2](https://youtube.com/shorts/clLwN1mxdNA?si=FspstvyYwow2DkeL)
