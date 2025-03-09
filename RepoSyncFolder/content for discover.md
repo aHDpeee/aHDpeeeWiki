@@ -7,37 +7,55 @@
 - [ ] Рэй Бредбери
 - [ ] Беляев
 
-Happy Gamehttps://store.steampowered.com/app/1206060/Happy_Game/
+# Игры
+
+## Happy Game
 Маленький мальчик засыпает и попадает в ужасный кошмар. Сможете ли вы развеселить его?
-Follow the Meaninghttps://store.steampowered.com/app/2720280/Follow_the_meaning/
+
+## Follow the Meaning
+[Follow the Meaning](https://store.steampowered.com/app/2720280/Follow_the_meaning/)  
 Приключение в жанре point-and-click с головоломками. Действие происходит в специфичном городке, где его жители чувствуют угрозу от возрастающего контроля со стороны Больницы и её Докторов. Что происходит за стеной?
 
-Фонополис (Phonopolis)https://store.steampowered.com/app/1206070/Phonopolis/
+## Phonopolis
+[Фонополис (Phonopolis)](https://store.steampowered.com/app/1206070/Phonopolis/)  
 Сюжетная приключенческая головоломка с рисованной графикой в трехмерном мире из картона. Решайте разнообразные головоломки и помогите Феликсу избавиться от гнета Лидера целого антиутопического города, созданного в духе авангардного искусства.
 
-Creakshttps://store.steampowered.com/app/956030/Creaks/
+## Creaks
+[Creaks](https://store.steampowered.com/app/956030/Creaks/)  
 Земля дрожит, лампочки лопаются, и вы понимаете, что за стенами вашей комнаты происходит нечто крайне необычное. Вооружившись острым разумом и отвагой, вы погружаетесь в мир, населенный крылатым народом и смертоносной мебелью.
 
-Machinariumhttps://store.steampowered.com/app/40700/Machinarium/
+## Machinarium
+[Machinarium](https://store.steampowered.com/app/40700/Machinarium/)  
 Отмеченная наградами независимая приключенческая игра, разработанная творцами игр Samorost и Botanicula. Помоги роботу Йозефу спасти его подругу Берту, похищенную бандитами из Братства Черных Шляп.
 
-WORLD OF HORRORhttps://store.steampowered.com/app/913740/WORLD_OF_HORROR/
+## WORLD OF HORROR
+[WORLD OF HORROR](https://store.steampowered.com/app/913740/WORLD_OF_HORROR/)  
 Испытайте тихий ужас от этого 1-битного любовного письма Джунджи Ито и Х.П. Лавкрафту. Перенеситесь в адскую реальность рогелитов с пошаговыми боями и беспощадным выбором. Экспериментируйте со своей колодой карт событий, чтобы открывать новые формы космического ужаса в каждом прохождении.
 
-Don't Starvehttps://store.steampowered.com/app/219740/Dont_Starve/
+## Don't Starve
+[Don't Starve](https://store.steampowered.com/app/219740/Dont_Starve/)  
 Необъяснимо мрачная игра на выживание в процедурно генерируемом мире. Исследуйте, собирайте ресурсы и сражайтесь с причудливыми существами, чтобы не умереть от голода в этом готическом приключении.
 
-OneShothttps://store.steampowered.com/app/420530/OneShot/
+## OneShot
+[OneShot](https://store.steampowered.com/app/420530/OneShot/)  
 Уникальная приключенческая игра с элементами головоломок, где вы ведете ребенка по имени Нико через разрушенный мир, чтобы вернуть солнце. Вас ждет только один шанс — используйте его с умом.
 
-Who is Lilahttps://store.steampowered.com/app/1083830/Who_is_Lila/
+## Who is Lila
+[Who is Lila](https://store.steampowered.com/app/1083830/Who_is_Lila/)  
 Психологический триллер с элементами point-and-click. Исследуйте странный мир через призму эмоций и выборов, где главный герой сталкивается с загадочной Лилой и вопросами о собственной идентичности.
 
+---
 
+## Дополнительные ссылки
+- [Journey - обзоры и оценки игры, даты выхода DLC, трейлеры, описание](https://www.igromania.ru/game/9888/Journey.html)
 
-Journey - обзоры и оценки игры, даты выхода DLC, трейлеры, описаниеhttps://www.igromania.ru/game/9888/Journey.html
+---
 
-Я добавил краткие описания для Don't Starve, OneShot и Who is Lila, основываясь на их страницах в Steam, чтобы они соответствовали остальным играм. Если у вас есть конкретные пожелания к описаниям или нужно что-то еще скорректировать, дайте знать!
+### Рекомендации
+- Если вы любите атмосферные приключенческие игры с головоломками, обратите внимание на **Creaks** и **Phonopolis**.
+- Для поклонников ужасов рекомендую попробовать **WORLD OF HORROR** и **Happy Game**.
+- Если вам нравятся игры на выживание, **Don't Starve** — отличный выбор.
+- **OneShot** и **Who is Lila** подойдут тем, кто ценит глубокие истории и эмоциональные переживания./
 # Сериалы
 ## смотреть
 - [ ] [как гравити фолз](https://youtu.be/MGUXcgGh-SI?si=4jGfTyMtcvIqHKfu)
