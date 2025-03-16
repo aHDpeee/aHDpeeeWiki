@@ -90,7 +90,7 @@ class Swipe3D {
                 const response = await fetch(`${this.baseUrl}${element}.md`);
                 const text = await response.text();
                 const pageId = this.container.querySelector('[id="' + element + '"]');
-                if (!pageId) throw new Error(`Page element with id ${element} not found`);
+                if (!pageId) throw new Error(`Git er ${this.baseUrl}${element}.md not found`);
 
                 if (text.includes("---")) {
                     pageId.innerHTML = '<div id="faketext">...</div>' + MarkdownRenderer.md2html(text.trim());
@@ -146,7 +146,7 @@ class Swipe3D {
                 
                 style.left = `${this.pos[i + 2]}%`;
                 style.transform = `rotateY(${90 * i}deg)`;
-            }else { console.log(pageId)}
+            }
         }
     }
 
@@ -250,7 +250,6 @@ document.addEventListener("keydown", (e) => {
         }
         
     });
-    console.log(closestSlider.container.id);
     // Управляем только ближайшим слайдером
     if (e.key === "ArrowLeft") {
         closestSlider.active = (closestSlider.active + 3) % 4;
@@ -292,5 +291,5 @@ window.addEventListener("resize", updateActiveSlider);
 const pages1 = ["day", "people", "content for discover", "ideas-projects"];
 const swipe1 = new Swipe3D("swipe3d1", pages1);
 
-const pages2 = ["citates", "", "memorise", ""];
-const swipe2 = new Swipe3D("perspective", pages1);
+const pages2 = ["citates", "bottom", "memorise", "bottom"];
+const swipe2 = new Swipe3D("perspective", pages2);
