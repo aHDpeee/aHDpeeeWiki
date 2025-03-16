@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -33,10 +34,10 @@ p {
 
 body {
     line-height: var(--sizeindex)*1.5;
-    overflow-x:unset;
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
     background-color: black;
-    height:auto;
+    height:max-content;
     width: 100vw;
     color: white;
     font-size: calc(var(--sizeindex));
@@ -45,40 +46,38 @@ body {
     transform-style: preserve-3d;
 }
 
-.swipe3d {
+#swipe3d1 {
     display: grid;
     width: 90%;
-    margin: 0 5% 0 5%;  
+    margin: 5%;  
 }
 .noteblock {
-    /* display: grid; */
     background-color: #2a2a2a;
     padding: 5%;
     grid-area: 1/1;
     opacity: 0;
     transition: var(--transition);
     width: 100%;
+    will-change: transform;
     position: relative;
+    min-height: 50vh;
+}
+
+#ideas-projects {
     overflow: hidden;
     perspective: 1000px;
-    perspective-origin:50% 50% ;
+    perspective-origin:50% 25vh ;
     overflow: visible;
 }
 
-.noteblock .block {
-    position: absolute;    text-align: center;    left: 50%;    top: 50%;    transform: translate(-50%, -50%);
-    transition: var(--transition);
+#ideas-projects .block {
+    position: absolute;
+    left: 50%;
+    top: 25vh;
     transform: translate(-50%, -50%);
-    width: 90%;
-}
-
-.noteblock #faketext{
-    min-height: auto;    left: 50%;    top: 25vh;
-    margin: 0, 25%, 0, 25%;
+    transition: var(--transition);
     text-align: center;
     pointer-events: none;
-    opacity: 0.0;
-    overflow-wrap: anywhere;
 }
 
 .galary {
@@ -116,18 +115,11 @@ body {
 }
 
 
-#perspective{
+.perspective{
     perspective: 1500px; 
-    width: 100vw;
-    overflow-x: hidden;
 }
 
-.bottom {
-    transform: rotateX(45deg);
-    background-color: black;
-}
-
-#citates {
+.citates {
     text-align: center;
     text-wrap: words;
     width: 100%;
@@ -135,6 +127,7 @@ body {
     white-space: pre-wrap;
     margin-left: auto;
     margin-right: auto;
+    transform: rotateX(45deg);
 }
 
 @keyframes blink {
@@ -143,7 +136,7 @@ body {
 }
 
 @media (orientation: landscape) {
-    .swipe3d {
+    #swipe3d1 {
         width: 50%;
         margin: 0 auto;
     }

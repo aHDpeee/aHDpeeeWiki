@@ -3,32 +3,26 @@ document.getElementById("citates").addEventListener('click', async () =>{
     const text = await resopnse.text();
     const lines = text.split('\n---').filter(line => line.trim()!=='');
     const randomLine = lines[Math.floor(Math.random()*lines.length)];
-    typeWriterEffect(randomLine.trim(), "citates");
+    typeWriterEffect(randomLine.trim(), document.getElementById("citates")  );
 });
 
-pages = ["day", "people", "content for discover"]
-const reg = {
-    "day": ["- \\[([ x])\\] (.+)", (match, p1, p2) => {
-        const checked = p1 === 'x' ? 'checked' : '';
-        return `<input type="checkbox" ${checked} disabled> ${p2}`;
-    }],
-    "ideas-projects": [
-        "\\[\\[(?:[^\\]|]+\\|)? \\]\\]\\s*\\n(Темы:\\s*.+)",
-        (match, p1, p2) => `${p1}\n<i>${p2}</i>`
-    ],
-    "people": ["", ""],
-    "content for discover": ["", ""]
-};
+pages1 = ["day", "people", "content for discover", "ideas-projects"];
 
-pages.forEach(async (element) => {
+pages1.forEach(async (element) => {
     try {
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
-        console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
+        // console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
 
         let text = await response.text();
+        const pageId = document.getElementById(element);
     
-
-        typeWriterEffect(text.trim(), element);
+        if (text.includes("---")) {
+            pageId.innerHTML = '<div id="faketext">...</div>' + md2html(text.trim());
+            const fake = pageId.querySelector("#faketext");
+            Array.from(pageId.children).forEach((child, index) => {
+                if (child.innerHTML.length > fake.innerHTML.length) {fake.innerHTML = child.innerHTML;};
+            });
+        } else {typeWriterEffect(text.trim(), pageId);}
     } catch (error) {
         console.error(`Ошибка загрузки ${element}:`, error);
     }
@@ -37,19 +31,20 @@ pages.forEach(async (element) => {
 
 
 function typeWriterEffect(text, element, speed=10){
-    const display = document.getElementById(element);
     text = md2html(text);
-    display.textContent = '';
+    console.log(text);
+    element.textContent = '';
     let i = 0;
     function type(){
         if (i<text.length){
             if (text[i] === '<'){
                 const tag = text.substring(i).match(/<[^>]+>/)[0];
-                display.innerHTML += tag;
+                element.innerHTML += tag;
                 i += tag.length;
             }
-            display.innerHTML = text.substring(0, i+1);
+            element.innerHTML = text.substring(0, i+1);
             i++;
+            // updateHeight();
             setTimeout(type, speed);
         }
     }
@@ -88,7 +83,7 @@ function md2html(text) {
     text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
     text = text.replace(/<p>\s*<\/p>/g, "");
 
-    console.log(text);
+    // console.log(text);
     return text; 
 }
 
