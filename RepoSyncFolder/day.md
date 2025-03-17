@@ -1,5 +1,5 @@
 ## Just plan
-- [ ] [[What was 11 week about]]
+- [x] [[What was 11 week about]]
 - [x] информатика
 - [x] программирование
 - [ ] онид
