@@ -37,6 +37,29 @@ document.addEventListener("contextmenu", (e) => {
                     textarea.scrollLeft += event.deltaY;
                 }
             }, { passive: false });
+
+            
+            com.getElementById("send").addEventListener("click", function(event) {
+                event.preventDefault();
+
+                const message = textarea.textContent;
+
+                fetch("/.netlify/functions/sendEmail", {
+                method: "POST",
+                body: JSON.stringify({ name, email, message }),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                })
+                .then(response => response.json())
+                .then(data => {
+                alert("Email отправлен успешно!");
+                })
+                .catch(error => {
+                console.error("Ошибка:", error);
+                alert("Ошибка при отправке email.");
+                });
+            });
         }
 
         
@@ -46,4 +69,3 @@ document.addEventListener("contextmenu", (e) => {
 document.addEventListener("mouseup", (e) => {
     e.preventDefault();
 });
-
