@@ -3,8 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100vw;
+    font-family: Arial, sans-serif;
+    color: white;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff38 rgba(0, 0, 0, 0);
 }
 
+*::selection{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: red wavy underline;
+}
+
+html {
+    overflow-x: hidden;
+}
 
 :root {
     --dark: #070707;
@@ -32,13 +45,12 @@ p {
 }
 
 body {
+    scrollbar-gutter:initial;
     line-height: var(--sizeindex)*1.5;
     overflow-x:unset;
-    font-family: Arial, sans-serif;
     background-color: black;
     height:auto;
     width: 100vw;
-    color: white;
     font-size: calc(var(--sizeindex));
     min-height: 100vh;
     position: relative;
@@ -118,24 +130,34 @@ body {
 
 #perspective{
     perspective: 1500px; 
-    width: 100vw;
-    overflow-x: hidden;
+    margin: 0, 25%, 0, 25%;
+    min-height: 50vh;
+    width: 70%;
 }
 
 .bottom {
-    transform: rotateX(45deg);
-    background-color: black;
-}
-
-#citates {
+    font-size: xx-large;
     text-align: center;
     text-wrap: words;
     width: 100%;
-    height: 75vh;
-    white-space: pre-wrap;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 70%);;
+    background-size: 100% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimer 3s linear infinite;
+    height: 100%;
 }
+@keyframes shimer {
+    0% {
+        background-position: 0 200%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
 
 @keyframes blink {
     from, to {border-color: transparent;}
@@ -159,3 +181,66 @@ body {
     }
 }
 
+#comment {
+    position: sticky ;
+    bottom: 10vh; left: 20vw;
+    width: 60vw; height: 50vh;
+    z-index: 9999;
+
+    background-color: #515151ad;
+    border: 1px solid #969696;
+    padding: 3%;
+    border-radius: 3vh 3vh 2vh 2vh;
+}
+
+#comment p {
+    width: 100%; white-space: nowrap; overflow: scroll; overflow-block: hidden; scroll-snap-align: center;
+    mask-image: linear-gradient(to right, transparent, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 90%, transparent);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+#comment button{
+    margin-top: 2%;
+    width: 100%;
+    background: transparent;
+    border-color: white;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-radius: 5vh;
+    font-size: large;
+}
+
+#comment #send{
+    width: 70%;
+    border-right: transparent;
+}
+
+#comment button:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+#comment #cancel{
+    width: 30%;
+    height: auto;
+    border-left: transparent;
+}
+
+#comment textarea {
+    resize: none; width: 100%;  height: 75%;
+    autocomplete: off;
+    autocomplete: off;
+    autocorrect: off;
+    background-color: #e7e7e7af;
+    color: #000000;
+    border: transparent;
+    border-radius: 10px;
+    font-size: large;
+    text-wrap: everywhere;
+    autofocus: true;
+    wrap: hard;
+    padding: 3% 3% 25% 3%;
+    scrollbar-color: #565656 rgba(0, 0, 0, 0);
+}
