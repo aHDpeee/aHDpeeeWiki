@@ -21,8 +21,6 @@ document.addEventListener("contextmenu", (e) => {
         if (document.getElementById("comment")) {document.getElementById("comment").innerHTML = com.innerHTML;}
         else {
             document.body.appendChild(com);
-
-            // Теперь не нужно снова искать "comment", `com` уже является этим элементом
             
             document.getElementById("cancel").addEventListener("click", () => {
                 com.remove();
@@ -39,10 +37,11 @@ document.addEventListener("contextmenu", (e) => {
             }, { passive: false });
 
             
-            com.getElementById("send").addEventListener("click", function(event) {
+            com.querySelector("#send").addEventListener("click", function(event) {
                 event.preventDefault();
-
-                const message = textarea.textContent;
+                const email = "andreyborisov08@yandex.ru";
+                const name = "anonimous";    
+                const message = `User comment: ${com.getElementsByTagName("p")[0].textContent}\n User's comment: ${textarea.value}`;
 
                 fetch("/.netlify/functions/sendEmail", {
                 method: "POST",
@@ -51,7 +50,12 @@ document.addEventListener("contextmenu", (e) => {
                     "Content-Type": "application/json",
                 },
                 })
-                .then(response => response.json())
+                .then(response => response.text()) // Получаем ответ в виде текста
+                .then(text => {
+                    console.log("Ответ сервера:", text); // Логируем текст
+                    return JSON.parse(text || '{}'); // Преобразуем в JSON (если пусто, то {})
+                })
+
                 .then(data => {
                 alert("Email отправлен успешно!");
                 })
