@@ -38,31 +38,8 @@ document.addEventListener("contextmenu", (e) => {
 
             
             com.querySelector("#send").addEventListener("click", function(event) {
-                event.preventDefault();
-                const email = "andreyborisov08@yandex.ru";
-                const name = "anonimous";    
-                const message = `User comment: ${com.getElementsByTagName("p")[0].textContent}\n User's comment: ${textarea.value}`;
-
-                fetch("https://ahdpeeewiki.netlify.app/.netlify/functions/sendEmail", {
-                method: "POST",
-                body: JSON.stringify({ name, email, message }),
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                })
-                .then(response => response.text()) // Получаем ответ в виде текста
-                .then(text => {
-                    console.log("Ответ сервера:", text); // Логируем текст
-                    return JSON.parse(text || '{}'); // Преобразуем в JSON (если пусто, то {})
-                })
-
-                .then(data => {
-                alert("Email отправлен успешно!");
-                })
-                .catch(error => {
-                console.error("Ошибка:", error);
-                alert("Ошибка при отправке email.");
-                });
+                const nodemailer = require("nodemailer");
+                console.log(`${secrets.GMAIL}`)
             });
         }
 

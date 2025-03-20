@@ -1,18 +1,5 @@
 {
-  "name": "aHDpeeeWiki",
-  "version": "1.0.0",
-  "description": "A project for managing and displaying various content.",
-  "main": "index.html",
-  "scripts": {
-    "start": "live-server --port=8080",
-    "build": "cp index.html dist/ && cp -r *.js dist/ && cp -r *.css dist/ && cp -r images dist/ && cp -r RepoSyncFolder dist/"
-  },
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
-    "swiper": "^11.0.0"
-  },
-  "devDependencies": {
-    "live-server": "^1.2.1"
+    "nodemailer": "^6.10.0"
   }
 }
