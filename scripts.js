@@ -239,7 +239,6 @@ class folders extends Swipe3D {
     initNoteBlocks() {
         const noteblocks = Array.from(this.container.getElementsByClassName("noteblock"));
         noteblocks.forEach(block => {
-            this.scrollValues.set(block, 0);
 
             block.addEventListener("wheel", (event) => {
                 event.preventDefault();

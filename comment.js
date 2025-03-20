@@ -27,14 +27,14 @@ document.addEventListener("contextmenu", (e) => {
             });
             
             const textarea = com.getElementsByTagName("textarea")[0];
+            const p = com.getElementsByTagName("p")[0];
             
-            textarea.addEventListener('wheel', (event) => {
-                console.log(event.deltaY);
-                if (event.deltaY !== 0) { 
-                    event.preventDefault(); 
-                    textarea.scrollLeft += event.deltaY;
+            p.addEventListener('wheel', (event) => {
+                if (event.deltaY !== 0) {  
+                    event.preventDefault();
+                    p.scrollLeft += event.deltaY;
                 }
-            }, { passive: false });
+            });
 
             
             com.querySelector("#send").addEventListener("click", function(event) {
@@ -43,7 +43,7 @@ document.addEventListener("contextmenu", (e) => {
                 const name = "anonimous";    
                 const message = `User comment: ${com.getElementsByTagName("p")[0].textContent}\n User's comment: ${textarea.value}`;
 
-                fetch("/.netlify/functions/sendEmail", {
+                fetch("https://ahdpeeewiki.netlify.app/.netlify/functions/sendEmail", {
                 method: "POST",
                 body: JSON.stringify({ name, email, message }),
                 headers: {

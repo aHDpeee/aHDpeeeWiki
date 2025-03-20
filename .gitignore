@@ -1,3 +1,5 @@
 RepoSyncFolder/
 .gitignore
 test.html
+# Local Netlify folder
+.netlify
