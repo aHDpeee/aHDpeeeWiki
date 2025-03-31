@@ -6,7 +6,7 @@ document.getElementById("citates").addEventListener('click', async () =>{
     typeWriterEffect(randomLine.trim(), document.getElementById("citates")  );
 });
 
-pages1 = ["day", "people", "content for discover", "ideas-projects"];
+pages1 = ["day", "people", "content for discover", "ideas-projects", "memories"];
 
 pages1.forEach(async (element) => {
     try {
