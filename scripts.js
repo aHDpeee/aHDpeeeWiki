@@ -5,10 +5,13 @@ class MarkdownRenderer {
         text = text.replace(/\*(?<italic>.+?)\*/g, '<i>$<italic></i>');
         text = text.replace(/`(?<code>.+?)`/g, '<code>$<code></code>');
 
-        text = text.replace(/[-\+] \[\s*(x?)\s*\] (?<checkbox>(?:.|\n\t)+)/gi,
+        text = text.replace(/[-\+] \[\s*(x?|-?)\s*\] (?<checkbox>(?:.|\n\t)+)/gi,
             (match, p1, p2) => {
-                const checked = p1.toLowerCase() === 'x' ? 'checked' : '';
-                return `<input type="checkbox" ${checked} disabled> ${p2}`;
+                const checked = p1.toLowerCase() === 'x' ? 'checked' : p1 === '-' ? 'class="canceled"':'';
+                if (p1 === '-') {
+                    p2 = `<s>${p2}</s>`
+                }
+                return `<input type="checkbox" ${checked} disabled/> ${p2}`;
             });
 
         const headers = text.match(/#+ .+/g);
@@ -77,6 +80,7 @@ class Swipe3D {
         this.initEventListeners();
         this.updateActive();
         this.initStyles();
+        this.updateActive();
     }
 
     
@@ -155,7 +159,7 @@ class folders extends Swipe3D {
         this.scrollValues = new Map();
         this.multyTouchDistance = null;
         this.activeTouches = 0;
-        this.zSpacing = 500;
+        this.zSpacing = 1000;
 
         Swipe3D.instances.push(this); 
         this.init();
@@ -166,7 +170,8 @@ class folders extends Swipe3D {
         this.updateActive();
         this.initStyles();
         this.initNoteBlocks();
-        await this.loadContent();
+        this.updateActive();
+        this.loadContent();
     }
 
     async loadContent() {
@@ -300,7 +305,7 @@ document.addEventListener("keydown", (e) => {
         }
         
     });
-    // Управляем только ближайшим слайдером
+    
     if (e.key === "ArrowLeft") {
         closestSlider.active = (closestSlider.active + 3) % 4;
         closestSlider.updateActive();
@@ -310,7 +315,7 @@ document.addEventListener("keydown", (e) => {
     }
 });
 
-// Обновление активного слайдера при скролле и изменении размера окна
+
 function updateActiveSlider() {
     if (Swipe3D.instances.length === 0) return;
 
@@ -338,7 +343,7 @@ window.addEventListener("scroll", updateActiveSlider);
 window.addEventListener("resize", updateActiveSlider);
 
 // Пример использования
-const pages1 = ["day", "people", "content for discover", "ideas-projects"];
+const pages1 = ["people", "content for discover", "day", "ideas-projects"];
 const swipe1 = new folders("swipe3d1", pages1);
 
 
@@ -348,14 +353,15 @@ const defaultperspective = [`translateY(-25%)                rotateX(${deg}deg)`
                             `translate3d(50%, -25%, 0)   rotateX(${deg}deg)`,
                             `translate3d(0, -25%, 0)         rotateX(-${deg}deg)`,
                             `translate3d(-50%, -25%, 0)  rotateX(${deg}deg)`]
-                        //calculateStylesForAngles(45);
-//console.log(defaultperspective);
+
+                            
 const swipe2 = new Swipe3D("perspective", pages2, defaultperspective);
 
 const loading_divs = { memories: "memories" };
 
 async function loadPages() {
     for (const [key, value] of Object.entries(loading_divs)) {
+        auto_scroll(value)
         console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`)
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`);
         const text = await response.text();
@@ -367,3 +373,34 @@ async function loadPages() {
     }
 }
 loadPages()
+
+
+
+async function auto_scroll(query) {
+    query = document.querySelector(`[id="${query}"]`);
+    if (!query) return console.error("Элемент не найден");
+
+    let scrollInterval = null;
+
+    var observer = new IntersectionObserver(function (entries) {
+        let entry = entries[0];
+
+        if (entry.isIntersecting) {
+
+            scrollInterval = setInterval(() => {
+                query.scrollTop += 1; 
+                if (query.scrollTop + query.clientHeight >= query.scrollHeight) {
+                    clearInterval(scrollInterval);
+                    scrollInterval = null;
+                }
+            }, 50);
+        } else {
+            if (scrollInterval) {
+                clearInterval(scrollInterval);
+                scrollInterval = null;
+            }
+        }
+    }, { threshold: [0] });
+
+    observer.observe(query);
+}

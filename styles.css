@@ -158,9 +158,35 @@ body {
     
 }
 
-.botom #memo {
-    will-change: transform;
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #606060;
+    margin: 1em;
+    width: 1em;
+    height: 1em;
+    border: none;
+    border-radius: 0.2em;
+    vertical-align:middle;
+  }
+
+input[type="checkbox"].canceled{
+    opacity: 0.2;
 }
+
+s{
+    opacity: 0.2;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "✔";
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    transform: translate(-10%, -50%);
+}
+
+
 
 @keyframes shimer {
     0% {
