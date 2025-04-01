@@ -141,14 +141,27 @@ body {
     text-wrap: words;
     width: 100%;
     margin: auto;
+
+    background-color: transparent;
+    
+/* 
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 70%);;
     background-size: 100% 200%;
-    background-clip: text;
+    background-clip:content-box;
     -webkit-background-clip: text;
     color: transparent;
-    animation: shimer 3s linear infinite;
-    height: 100%;
+    animation: shimer 3s linear infinite; */
+
+    max-height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
 }
+
+.botom #memo {
+    will-change: transform;
+}
+
 @keyframes shimer {
     0% {
         background-position: 0 200%;

@@ -10,6 +10,7 @@ pages1 = ["day", "people", "content for discover", "ideas-projects", "memories"]
 
 pages1.forEach(async (element) => {
     try {
+        console.log(element)
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
         // console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
 

@@ -351,3 +351,19 @@ const defaultperspective = [`translateY(-25%)                rotateX(${deg}deg)`
                         //calculateStylesForAngles(45);
 //console.log(defaultperspective);
 const swipe2 = new Swipe3D("perspective", pages2, defaultperspective);
+
+const loading_divs = { memories: "memories" };
+
+async function loadPages() {
+    for (const [key, value] of Object.entries(loading_divs)) {
+        console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`)
+        const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`);
+        const text = await response.text();
+        const pageId = document.querySelector(`[id="${value}"]`);
+        if (!pageId) throw new Error(`Git er ${this.baseUrl}${value}.md not found`);
+        
+        MarkdownRenderer.typeWriterEffect(text.trim(), pageId);
+            
+    }
+}
+loadPages()
