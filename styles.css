@@ -150,7 +150,7 @@ body {
     background-clip:content-box;
     -webkit-background-clip: text;
     color: transparent;
-    animation: shimer 3s linear infinite; */
+    animation: shimer 3s linear infinite;  */
 
     max-height: 50vh;
     overflow-y: scroll;
