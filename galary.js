@@ -15,7 +15,7 @@ const cliderMain = new Swiper('.slider_main', {
     loop: true,
     autoplay: {
         delay: 3000,
-        disableOnInteraction: true
+        disableOnInteraction: false
     },
     
     mousewheel: {

@@ -50,9 +50,8 @@ p {
 
 body {
     scrollbar-gutter:initial;
+    overflow: hidden;
     line-height: var(--sizeindex)*1.5;
-    overflow-x:hidden;
-    overflow-y: visible;
     background-color: black;
     width: 100vw;
     font-size: calc(var(--sizeindex)*1.5);
@@ -81,7 +80,6 @@ body {
 
 .bi {
     height: 4vh;
-    margin-bottom: 5vh;
 }
 
 .swipe3d {
