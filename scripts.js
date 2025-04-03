@@ -24,7 +24,7 @@ class MarkdownRenderer {
         }
 
         text = text.replace(/(?<!!)\[\[(?:.*\|)?([^\]]+)\]\]/g, `<span class="link_to_note"><b>$1</b></span>`);
-        text = text.replace(/(?<=!)\[\[(?:.*\/)?([^\]]+)\]\]/g, `<span class="link_to_img"><b>$1</b></span>`);
+        text = text.replace(/(?<=!)\[\[(?:.*\/)?([^\]]+)\]\]/g, `<img class="link_to_img" alt="$1>`);
 
         if (text.includes('---')) text = '<div class="block">' + text.replaceAll('---', '</div><div class="block">') + '</div>';
         text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
@@ -104,6 +104,7 @@ class Swipe3D {
                     ? (this.active + 1) % 4 
                     : (this.active + 3) % 4;
                 this.updateActive();
+            this.activeTouches = 0;
             }
         });
     }
@@ -130,7 +131,7 @@ class Swipe3D {
             if (style) {
                 style.transform = `rotateY(${((i + 2) % 4 - 2) * 90}deg) ${this.defaultTransform[i]}`;
                 style.left = `${this.pos[i]}%`;
-                style.opacity = this.opa[i];
+                style.opacity = this.opa[i]; //if (this.opa[i] === 0) {style.display = "none"} 
                 style.zIndex = `${(i * -1) * 50}`;
                 style.pointerEvents = this.pointer[i];
             }
@@ -167,7 +168,6 @@ class folders extends Swipe3D {
 
     async init() {
         this.initEventListeners();
-        this.updateActive();
         this.initStyles();
         this.initNoteBlocks();
         this.updateActive();
@@ -247,7 +247,7 @@ class folders extends Swipe3D {
 
             block.addEventListener("wheel", (event) => {
                 event.preventDefault();
-                this.scrollValues.set(block, (this.scrollValues.get(block) || 0) + event.deltaY * 2.5);
+                this.scrollValues.set(block, (this.scrollValues.get(block) || 0) + event.deltaY * 4);
                 this.updateObjects(block);
             });
 
@@ -273,9 +273,14 @@ class folders extends Swipe3D {
         let minDist = Infinity;
         objects.forEach((obj, index) => {
             const z = (index * this.zSpacing) - scrollValue;
-            obj.style.opacity = z < this.zSpacing * 0.8 && z > this.zSpacing * -0.8 
-                ? Math.abs(1 - z / (2 * this.zSpacing)) 
-                : 0;
+
+            if (z < this.zSpacing * 0.8 && z > this.zSpacing * -0.8){
+                obj.style.opacity = 1 - Math.abs(z / (this.zSpacing*0.666));
+                obj.style.display = "block"
+            }else{
+                obj.style.opacity = 0;
+                obj.style.display = "none"
+            }
             obj.style.transform = `translate(-50%, -50%) translateZ(${z}px)`;
             
             let dist = Math.abs(z);
@@ -362,13 +367,12 @@ const loading_divs = { memories: "memories" };
 async function loadPages() {
     for (const [key, value] of Object.entries(loading_divs)) {
         auto_scroll(value)
-        console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`)
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`);
         const text = await response.text();
         const pageId = document.querySelector(`[id="${value}"]`);
         if (!pageId) throw new Error(`Git er ${this.baseUrl}${value}.md not found`);
         
-        MarkdownRenderer.typeWriterEffect(text.trim(), pageId);
+        pageId.innerHTML = text.trim()
             
     }
 }
@@ -378,7 +382,6 @@ loadPages()
 
 async function auto_scroll(query) {
     query = document.querySelector(`[id="${query}"]`);
-    if (!query) return console.error("Элемент не найден");
 
     let scrollInterval = null;
 

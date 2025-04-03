@@ -47,14 +47,37 @@ p {
 body {
     scrollbar-gutter:initial;
     line-height: var(--sizeindex)*1.5;
-    overflow-x:unset;
+    overflow-x:hidden;
+    overflow-y: visible;
     background-color: black;
-    height:auto;
     width: 100vw;
-    font-size: calc(var(--sizeindex));
+    font-size: calc(var(--sizeindex)*1.5);
     min-height: 100vh;
     position: relative;
     transform-style: preserve-3d;
+}
+
+#AHDPEEEWiki{
+    mix-blend-mode:difference;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -10%;
+    pointer-events: none;
+    position: absolute;
+    
+    z-index: 100;
+}
+
+#ui {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    image-rendering: pixelated;
+}
+
+.bi {
+    height: 4vh;
+    margin-bottom: 5vh;
 }
 
 .swipe3d {
@@ -64,7 +87,7 @@ body {
 }
 .noteblock {
     /* display: grid; */
-    background-color: #2a2a2a;
+    background: linear-gradient(#2a2a2a, #2a2a2a5c);
     padding: 5%;
     grid-area: 1/1;
     opacity: 0;
@@ -96,10 +119,9 @@ body {
 .galary {
     overflow: hidden;
     padding-top: 10vh;
-    position: absolute;
     height: max-content;
     width: 100%;
-    z-index: 0;
+    z-index: -100;
     will-change: transform;
 }
 .slider {
@@ -108,7 +130,7 @@ body {
 }
 .swiper__wrapper {
     transition: var(--transition)!important;
-    height: 40vh!important;
+    height: 30vh!important;
     will-change: transform;
 }
 .slider__item {
@@ -118,7 +140,7 @@ body {
 }
 
 .slider_img {
-    width: 50vh;
+    width: 30vh;
     height: 100%;
     background-size: cover;
     position: absolute;
@@ -130,9 +152,9 @@ body {
 
 #perspective{
     perspective: 1500px; 
-    margin: 0, 25%, 0, 25%;
-    min-height: 50vh;
-    width: 70%;
+    margin: auto;
+    width: 90%;
+    height: 30vh;
 }
 
 .bottom {
@@ -142,7 +164,7 @@ body {
     width: 100%;
     margin: auto;
 
-    background-color: transparent;
+    background: linear-gradient(#2a2a2a5c, #000000a7);
     
 /* 
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 70%);;
@@ -152,7 +174,7 @@ body {
     color: transparent;
     animation: shimer 3s linear infinite;  */
 
-    max-height: 50vh;
+    height: 50vh;
     overflow-y: scroll;
     scrollbar-width: none;
     
@@ -162,7 +184,7 @@ body {
 input[type="checkbox"] {
     appearance: none;
     background-color: #606060;
-    margin: 1em;
+    margin-right: 1em;
     width: 1em;
     height: 1em;
     border: none;
@@ -185,6 +207,10 @@ input[type="checkbox"]:checked::before {
     position: absolute;
     transform: translate(-10%, -50%);
 }
+
+input[type="checkbox"]::before {
+    background-color: transparent;
+  }
 
 
 
@@ -217,6 +243,36 @@ input[type="checkbox"]:checked::before {
         width: 50%;
         margin: 0 auto;
         
+    }
+    .swiper__wrapper {
+        transition: var(--transition)!important;
+        height: 40vh!important;
+        will-change: transform;
+    }
+    .slider_img {
+        width: 50vh;
+        height: 100%;
+        background-size: cover;
+        position: absolute;
+        /* left: -50%; */
+        transition: var(--transition)!important;
+        will-change: transform;
+    }
+    #AHDPEEEWiki {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -4%;
+    }
+    #perspective{
+        perspective: 1500px; 
+        margin: 0, 25%, 0, 25%;
+        width: 70%;
+    }
+    #ui {
+        width: 50%;
+        margin-left: 25%;
+        image-rendering:
+        pixelated;
     }
 }
 
