@@ -16,7 +16,7 @@
 
 ---
 # Игры
-[Happy Game](https://store.steampowered.com/app/1206060/Happy_Game/)[Follow the Meaning](https://store.steampowered.com/app/2720280/Follow_the_meaning/)  
+[Happy Game](https://store.steampowered.com/app/1206060/Happy_Game/) [Follow the Meaning](https://store.steampowered.com/app/2720280/Follow_the_meaning/)  
 [Фонополис (Phonopolis)](https://store.steampowered.com/app/1206070/Phonopolis/) 
 [Creaks](https://store.steampowered.com/app/956030/Creaks/)  
 [Machinarium](https://store.steampowered.com/app/40700/Machinarium/)  
