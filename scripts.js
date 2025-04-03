@@ -26,11 +26,11 @@ class MarkdownRenderer {
             });
         }
         if (text.includes('---')) {
-            text = '<div class="block"><img src="images/end.png" style="width:50vw !important; image-rendering: pixelated;"></div>' + 
+            text = '<div class="block"><img src="images/end.png" style="width:50% !important; image-rendering: pixelated;"></div>' + 
                    '<div class="block">' + 
                    text.replaceAll('---', '</div><div class="block">') + 
                    '</div>' + 
-                   '<div class="block"><img src="images/start.png" style="width:50vw !important; image-rendering: pixelated;"></div>';
+                   '<div class="block"><img src="images/start.png" style="width:50% !important; image-rendering: pixelated;"></div>';
         }
         text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
         text = text.replace(/<p>\s*<\/p>/g, "");
