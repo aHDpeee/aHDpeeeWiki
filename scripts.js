@@ -5,6 +5,9 @@ class MarkdownRenderer {
         text = text.replace(/\*(?<italic>.+?)\*/g, '<i>$<italic></i>');
         text = text.replace(/`(?<code>.+?)`/g, '<code>$<code></code>');
 
+        text = text.replace(/(?<!!)\[\[(?:.*\|)?([^\]]+)\]\]/g, `<span class="link_to_note"><b>$1</b></span>`);
+        text = text.replace(/\!\[\[(?:.*\/)?([^\]]+)\]\]/g, `<img class="link_to_img" src="$1">`);
+
         text = text.replace(/[-\+] \[\s*(x?|-?)\s*\] (?<checkbox>(?:.|\n\t)+)/gi,
             (match, p1, p2) => {
                 const checked = p1.toLowerCase() === 'x' ? 'checked' : p1 === '-' ? 'class="canceled"':'';
@@ -23,12 +26,10 @@ class MarkdownRenderer {
             });
         }
 
-        text = text.replace(/(?<!!)\[\[(?:.*\|)?([^\]]+)\]\]/g, `<span class="link_to_note"><b>$1</b></span>`);
-        text = text.replace(/(?<=!)\[\[(?:.*\/)?([^\]]+)\]\]/g, `<img class="link_to_img" alt="$1>`);
-
         if (text.includes('---')) text = '<div class="block">' + text.replaceAll('---', '</div><div class="block">') + '</div>';
         text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
         text = text.replace(/<p>\s*<\/p>/g, "");
+        console.log(text)
         return text;
     }
 
