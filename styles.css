@@ -82,6 +82,14 @@ body {
     height: 4vh;
 }
 
+#status{
+    transform: rotate(15deg);
+    width: 25%; height: auto;
+    top: 3vh; right: 1vw; position: absolute;
+    text-wrap: anywhere;
+    text-align: center;
+}
+
 .arrows {
     width: 95%;
     margin-top: 50%;
@@ -292,6 +300,13 @@ input[type="checkbox"]::before {
         width: 55%;
         margin-top: 50%;
         margin-left:52.5%;
+    }
+    #status{
+        transform: rotate(15deg);
+        width: 25%; height: auto;
+        top: 8vh; right: 5vw; position: absolute;
+        text-wrap: anywhere;
+        text-align: center;
     }
 }
 

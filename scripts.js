@@ -368,11 +368,10 @@ const defaultperspective = [`translateY(-25%)                rotateX(${deg}deg)`
                             
 const swipe2 = new Swipe3D("perspective", pages2, defaultperspective);
 
-const loading_divs = { memories: "memories" };
+const loading_divs = { memories: "memories", status:"status"};
 
 async function loadPages() {
     for (const [key, value] of Object.entries(loading_divs)) {
-        auto_scroll(value)
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${value}.md`);
         const text = await response.text();
         const pageId = document.querySelector(`[id="${value}"]`);
@@ -383,6 +382,7 @@ async function loadPages() {
     }
 }
 loadPages()
+auto_scroll("memories")
 
 
 
