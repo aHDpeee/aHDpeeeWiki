@@ -1,1 +1,1 @@
-а что насчёт..
+what do U think about?
