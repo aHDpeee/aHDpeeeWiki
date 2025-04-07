@@ -1,1 +1,1 @@
-лечу делать информатику!
+What about to create my own personal card?
