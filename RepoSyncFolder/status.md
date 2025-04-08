@@ -1,1 +1,1 @@
-What about to create my own personal card?
+everyday СУНЦ routine..
