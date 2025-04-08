@@ -1,2 +1,3 @@
 ## Just plan
-- [ ] pers
+- [ ] personal card
+- [ ]
