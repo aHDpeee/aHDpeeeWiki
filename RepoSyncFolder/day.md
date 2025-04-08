@@ -2,4 +2,4 @@
 - [ ] personal card
 - [ ] geometry
 - [ ] reading
-- [ ] program for handling nois
+- [ ] program for handling noise
