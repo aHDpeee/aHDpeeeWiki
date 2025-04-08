@@ -2,4 +2,4 @@
 - [ ] personal card
 - [ ] geometry
 - [ ] reading
-- [ ] program
+- [ ] program for
