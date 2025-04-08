@@ -3,4 +3,4 @@
 - [ ] geometry
 - [ ] reading
 - [ ] program for handling noise
-- [ ] take "things"
+- [ ] take "thing"
