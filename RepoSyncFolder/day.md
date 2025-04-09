@@ -1,7 +1,7 @@
 ## Just plan
 - [ ] take "things"
-+ [ ] print cards
-- [ ] MATH HT
++ [x] print cards
+- [x] MATH HT
 - [ ] ENGLISH 
 - [x] reading
 - [ ] program for handling noise
