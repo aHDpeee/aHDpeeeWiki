@@ -6,3 +6,4 @@
 - [ ] reading
 - [ ] program for handling noise
 - [ ] sync obsidian!!!
++ [ ] vacuum cleaner
