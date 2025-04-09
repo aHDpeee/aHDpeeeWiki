@@ -5,3 +5,4 @@
 - [ ] ENGLISH 
 - [ ] reading
 - [ ] program for handling noise
+- [ ] s
