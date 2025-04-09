@@ -1,5 +1,5 @@
 ## Just plan
-- [ ] MATH 
+- [ ] MATH HT
 - [ ] reading
 - [ ] program for handling noise
 - [ ] take "things"
