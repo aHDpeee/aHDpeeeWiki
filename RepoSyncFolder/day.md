@@ -1,5 +1,5 @@
 ## Just plan
-- [ ] take "things"
+- [x] take "things"
 + [x] print cards
 - [x] MATH HT
 - [ ] ENGLISH 
