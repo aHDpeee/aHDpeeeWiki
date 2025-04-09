@@ -1,1 +1,1 @@
-СУНЦ but today more interesting, easier
+no I have a physical personal card!
