@@ -3,7 +3,7 @@
 + [ ] print cards
 - [ ] MATH HT
 - [ ] ENGLISH 
-- [ ] reading
+- [x] reading
 - [ ] program for handling noise
 - [ ] sync obsidian!!!
 + [ ] vacuum cleaner
