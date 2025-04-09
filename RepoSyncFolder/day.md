@@ -5,4 +5,4 @@
 - [ ] ENGLISH 
 - [ ] reading
 - [ ] program for handling noise
-- [ ] sync
+- [ ] sync obsidian!
