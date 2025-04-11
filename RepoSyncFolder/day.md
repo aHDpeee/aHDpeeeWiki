@@ -3,4 +3,4 @@
 - [ ] program for handling noise
 - [ ] sync obsidian!!!
 - [ ] читать?
-- [ ]
+- [ ] лечь по ран
