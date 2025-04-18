@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] try to
+- [ ] try to solve bug
