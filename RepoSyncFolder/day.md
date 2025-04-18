@@ -2,4 +2,4 @@
 - [ ] try to solve bug of rotation player
 - [ ] reading!
 - [ ] 0/50 exercises!
-- [ ] learn by heart
+- [ ] learn by heart the s
