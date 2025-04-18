@@ -107,7 +107,7 @@
 New video about Simpsons power in my watchlist) And this also was about animation! I like it, maybe community of GF will be replaced with this one? Anyway this would be a great project to watch full series! But I want to do it with smb...
 
 ---
-[[Android control pane for TG botsl]]
+[[Android control pane for TG bots]]
 Not now but I think in recent future I need it
 
 
