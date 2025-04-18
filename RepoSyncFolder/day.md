@@ -1,4 +1,4 @@
 ## Just plan
 - [ ] try to solve bug of rotation player
 - [ ] reading!
-- [ ] 0/50 exer
+- [ ] 0/50 exercises!
