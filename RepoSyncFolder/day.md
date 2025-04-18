@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] try to solve bug of rotation pla
+- [ ] try to solve bug of rotation player
