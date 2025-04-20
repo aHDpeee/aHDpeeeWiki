@@ -3,4 +3,5 @@
 - [ ] 0/50 exercises 
 - [ ] trigonometry.. sorry geometry)
 - [ ] English maybe?
-- [ ] computer science 1
+- [ ] computer science 100%
+- [ ]
