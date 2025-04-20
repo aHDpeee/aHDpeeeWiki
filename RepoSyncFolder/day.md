@@ -4,4 +4,4 @@
 - [ ] trigonometry.. sorry geometry)
 - [ ] English maybe?
 - [ ] computer science 100%
-- [ ] individual project (like s)
+- [ ] individual project (like school su)
