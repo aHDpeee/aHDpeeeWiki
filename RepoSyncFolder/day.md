@@ -3,4 +3,4 @@
 - [ ] 0/50 exercises 
 - [ ] trigonometry.. sorry geometry)
 - [ ] English maybe?
-- [ ] c
+- [ ] computer
