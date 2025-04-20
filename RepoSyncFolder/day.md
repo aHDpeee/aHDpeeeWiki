@@ -1,4 +1,4 @@
 ## Just plan
 - [ ] стать настоящим компьютерщиком?
 - [ ] 0/50 exercises 
-- [ ] trigonometry.. sorry ge
+- [ ] trigonometry.. sorry geometry
