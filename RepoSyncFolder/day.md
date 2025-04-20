@@ -3,5 +3,5 @@
 - [ ] 0/50 exercises 
 - [ ] trigonometry.. sorry geometry)
 - [ ] English maybe?
-- [ ] computer science 100%
-- [ ] individual project (like school subject)
+- [x] computer science 100%
+- [x] individual project (like school subject)
