@@ -115,4 +115,4 @@ Not now but I think in recent future I need it
 maybe this would be a great android project?
 
 ---
-[[Приложение о]]
+[[Приложение открывающее]]
