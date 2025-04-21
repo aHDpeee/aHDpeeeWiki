@@ -116,4 +116,4 @@ maybe this would be a great android project?
 
 ---
 [[Приложение открывающее рандомный пост из тг]]
-I want to 
+I want to be a good 
