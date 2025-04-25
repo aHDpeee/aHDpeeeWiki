@@ -3,4 +3,4 @@
 - [ ] раньше лечь
 - [ ] читать в автобусе
 - [ ] послушать Натали 
-- [ ] find community and channe
+- [ ] find community and channels about ai
