@@ -3,4 +3,4 @@
 - [ ] раньше лечь
 - [ ] читать в автобусе
 - [ ] послушать Натали 
-- [ ] find community an
+- [ ] find community and ch
