@@ -1,1 +1,1 @@
-I am unpredictable..
+I like my phone!!! and my class..)
