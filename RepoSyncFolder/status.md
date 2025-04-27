@@ -1,1 +1,1 @@
-I like my phone!!! and my class..)
+ai study vlogs.. sounds pretty good)
