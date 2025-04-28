@@ -6,4 +6,4 @@
 - [ ] договориться на совзвон
 - [ ] find community and channels about ai and studiing
 - [ ] сделать геометрию
-- [ ]
+- [ ] заказать
