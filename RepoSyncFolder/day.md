@@ -7,3 +7,4 @@
 - [ ] find community and channels about ai and studiing
 - [ ] сделать геометрию
 - [ ] заказать доску
+- [ ] логи
