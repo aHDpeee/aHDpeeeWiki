@@ -118,4 +118,4 @@ maybe this would be a great android project?
 [[Приложение открывающее рандомный пост из тг]]
 I want to be a good friend..
 
-[[app fo]]
+[[app for random eye ]]
