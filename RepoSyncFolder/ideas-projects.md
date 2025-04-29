@@ -120,4 +120,4 @@ I want to be a good friend..
 
 ---
 [[app for random ege variant every day]]
-every day you have a notification, with a random variant with different open source exercises I'm renting children department user creat
+every day you have a notification, with a random variant with different open source exercises I'm renting children department user create 
