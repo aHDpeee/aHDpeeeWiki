@@ -118,4 +118,6 @@ maybe this would be a great android project?
 [[Приложение открывающее рандомный пост из тг]]
 I want to be a good friend..
 
-[[app for random ege vela]]
+---
+[[app for random ege variant every day]]
+every day you have a notification, with a random variant with different open source exercises I'm renting children department user 
