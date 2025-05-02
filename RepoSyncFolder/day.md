@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] ways of brainst
+- [ ] ways of brainstorming
