@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] way
+- [ ] ways of bra
