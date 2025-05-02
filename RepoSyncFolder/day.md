@@ -1,3 +1,2 @@
 ## Just plan
 - [ ] way
-- [ ]
