@@ -1,4 +1,4 @@
 ## Just plan
 - [ ] ways of brainstorming
 - [ ] reading 
-- [ ] one another
+- [ ] one another conc
