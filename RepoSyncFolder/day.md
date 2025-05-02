@@ -1,3 +1,4 @@
 ## Just plan
 - [ ] ways of brainstorming
-- [ ] reading
+- [ ] reading 
+- [ ] on
