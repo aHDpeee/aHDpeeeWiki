@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] ways of bra
+- [ ] ways of brainst
