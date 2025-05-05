@@ -1,3 +1,3 @@
 ## Just plan
-- [ ] make card
+- [ ] make cards for en
 - [ ] ways of brainstorming
