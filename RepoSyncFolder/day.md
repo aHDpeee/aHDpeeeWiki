@@ -1,4 +1,4 @@
 ## Just plan
 - [ ] make cards for English 
-- [ ] ma
+- [ ] make mundmap
 - [ ] ways of brainstorming
