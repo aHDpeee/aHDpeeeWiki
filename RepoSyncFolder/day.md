@@ -1,5 +1,5 @@
 ## Just plan
-нет я 
+нет я не забыл 
 - [ ] make cards for English 
 - [ ] make mind map for English 
 - [ ] make crad for website slides
