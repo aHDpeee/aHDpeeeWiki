@@ -1,5 +1,5 @@
 ## Just plan
-нет я не забыл обновить план.. я 
+нет я не забыл обновить план.. я просто почти
 - [ ] make cards for English 
 - [ ] make mind map for English 
 - [ ] make crad for website slides
