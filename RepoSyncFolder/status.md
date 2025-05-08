@@ -1,1 +1,1 @@
-ai study vlogs.. sounds pretty good)
+я не могу xx(
