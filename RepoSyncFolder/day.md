@@ -1,6 +1,6 @@
 ## Just plan
 - [ ] what about thunderbird?
 - [ ] write to udai
-- [ ] computer science 
+- [x] computer science
 - [ ] BSRM
 - [x] try to write!
