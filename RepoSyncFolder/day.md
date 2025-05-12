@@ -3,5 +3,5 @@
 - [ ] write to udai
 - [x] computer science
 - [ ] BSRM
-- [ ] разобраться 
+- [ ] разобраться со сло
 - [x] try to write!
