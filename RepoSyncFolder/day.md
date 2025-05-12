@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] what about thund
+- [ ] what about thunderbir
