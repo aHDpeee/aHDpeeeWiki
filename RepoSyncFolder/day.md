@@ -7,5 +7,5 @@
 - [ ] MP3 player
 - [ ] second phone finally rebooting
 - [ ] составить варианты с решу егэ по математике
-	2
+	2, 3, 4
 - [ ] a print English theory
