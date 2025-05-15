@@ -5,4 +5,4 @@
 - [ ] физика
 - [ ] MP3 player
 - [ ] second phone finally rebooting
-- [ ] составить вариан
+- [ ] составить варианты с решутегд
