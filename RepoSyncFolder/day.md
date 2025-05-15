@@ -6,3 +6,4 @@
 - [ ] MP3 player
 - [ ] second phone finally rebooting
 - [ ] составить варианты с решу егэ по математике
+- [ ]
