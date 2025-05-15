@@ -6,4 +6,4 @@
 - [ ] пообщаться? 
 - [ ] физика
 - [ ] MP3 player
-- [ ] second phone finally re
+- [ ] second phone finally rebooting
