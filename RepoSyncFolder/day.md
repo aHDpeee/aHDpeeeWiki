@@ -6,4 +6,4 @@
 - [ ] пообщаться? 
 - [ ] физика
 - [ ] MP3 player
-- [ ] second
+- [ ] second phon
