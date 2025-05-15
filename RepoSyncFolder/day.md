@@ -5,3 +5,4 @@
 - [ ] физика
 - [ ] MP3 player
 - [ ] second phone finally rebooting
+- [ ] состав
