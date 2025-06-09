@@ -123,4 +123,4 @@ I want to be a good friend..
 every day you have a notification, with a random variant with different open source exercises, chosen by pattern which user create, users should have an ability to create subvariants adding exercises from different subjects *maybe in the future some exercises or variants have an option of setting chance of their existing*, also I I think it would be a great idea to connect patterns to weekdays, maybe empty variants should be able to exist
 
 ---
-
+Бот 
