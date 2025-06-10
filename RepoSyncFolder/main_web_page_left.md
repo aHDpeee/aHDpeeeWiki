@@ -9,7 +9,7 @@
 - [ ] влияние наука и практика
 - [ ] подкасты миражи, знаки
 - [ ] разберись с книгами арта [тут](https://t.me/worldNekro2/539)
-# Поле
+# Полезные ссылки
 [математика доска](https://talamus.online/invite/TYOP2O5AY8HG38OO1YEYR801G6GQY1FK)
 [googleMeet Math](https://meet.google.com/ain-yxox-ibx)
 [Personal math data](https://docs.google.com/spreadsheets/d/12ffL7L9NjPExQYl71ydzsVcF4KaMkO_VN9FtxGcJdL0/edit?usp=sharing)
