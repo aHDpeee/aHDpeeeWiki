@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] ozone x
+- [ ] ozone X2
