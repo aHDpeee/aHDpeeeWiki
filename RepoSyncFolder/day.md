@@ -3,4 +3,4 @@
 - [ ] write down wednesday
 - [ ] find time for book
 - [ ] make a research about case
-- [ ] look for extra information
+- [ ] look for extra information about
