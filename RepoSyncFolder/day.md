@@ -1,3 +1,3 @@
 ## Just plan
 - [ ] ozone x2
-- [ ] write down
+- [ ] write down wend
