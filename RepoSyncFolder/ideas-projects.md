@@ -126,4 +126,4 @@ every day you have a notification, with a random variant with different open sou
 Бот для "тренировки" угадывания возраста
 
 ---
-приложение одной 
+приложение 
