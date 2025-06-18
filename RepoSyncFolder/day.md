@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] книги с Reddit
+- [ ] [книги с Reddit]
