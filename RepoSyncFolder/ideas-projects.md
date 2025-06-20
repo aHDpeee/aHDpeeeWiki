@@ -130,6 +130,6 @@ every day you have a notification, with a random variant with different open sou
 
 ---
 бот для ТГК по запросу от ии
-or another 
+or another way to 
 
 ---
