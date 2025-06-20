@@ -135,4 +135,4 @@ or another way for creating information
 ---
 main_web page
 записать идею о случайных данных для запоминания на main_web_page в том числе
-информация 
+информация из инфопол
