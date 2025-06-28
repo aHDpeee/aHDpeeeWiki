@@ -253,7 +253,7 @@ class folders extends Swipe3D {
 
             block.addEventListener("wheel", (event) => {
                 event.preventDefault();
-                this.scrollValues.set(block, (this.scrollValues.get(block) || 0) + event.deltaY * 4);
+                this.scrollValues.set(block, (this.scrollValues.get(block) || 0) + event.deltaY);
                 this.updateObjects(block);
             });
 
@@ -280,8 +280,8 @@ class folders extends Swipe3D {
         objects.forEach((obj, index) => {
             const z = (index * this.zSpacing) - scrollValue;
 
-            if (z < this.zSpacing * 0.8 && z > this.zSpacing * -0.8){
-                obj.style.opacity = 1 - Math.abs(z / (this.zSpacing*0.666));
+            if (z < this.zSpacing  && z > this.zSpacing * -1){
+                obj.style.opacity = (1-Math.abs(z / (this.zSpacing*0.7-2)));
                 obj.style.display = "block"
             }else{
                 obj.style.opacity = 0;
