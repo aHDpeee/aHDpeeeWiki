@@ -101,3 +101,39 @@
 ---
 [[IT проекты/habit tracker| Трекер привычек в обсидиан]]
 *необходимо найти или сделать трекер привычек который будет работать вместе с моей системой записи дел, например фиксировать выполнение задач с ключевыми словами, визуализировать их с помощью блоков кода как таск например.*
+
+---
+[[Симпсоны]]
+New video about Simpsons power in my watchlist) And this also was about animation! I like it, maybe community of GF will be replaced with this one? Anyway this would be a great project to watch full series! But I want to do it with smb...
+
+---
+[[Android control pane for TG bots]]
+Not now but I think in recent future I need it
+
+---
+[[Habbit tracker!!]]
+maybe this would be a great android project?
+
+---
+[[Приложение открывающее рандомный пост из тг]]
+I want to be a good friend..
+
+---
+[[app for random ege variant every day]]
+every day you have a notification, with a random variant with different open source exercises, chosen by pattern which user create, users should have an ability to create subvariants adding exercises from different subjects *maybe in the future some exercises or variants have an option of setting chance of their existing*, also I I think it would be a great idea to connect patterns to weekdays, maybe empty variants should be able to exist
+
+---
+Бот для "тренировки" угадывания возраста
+
+---
+приложение по одной кнопке выдает научную статью, видео, фильм, книгу, пост из ТГК 
+
+---
+бот для ТГК по запросу от ии
+or another way for creating information 
+
+---
+main_web page
+записать идею о случайных данных для запоминания на main_web_page в том числе
+информация из инфополя также
+кнопка для получения "занятия"
