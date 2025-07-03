@@ -56,6 +56,7 @@ body {
     width: 100vw;
     font-size: calc(var(--sizeindex)*1.5);
     min-height: 100vh;
+    z-index: -1000;
     position: relative;
 }
 
