@@ -11,28 +11,185 @@
 </head>
 <body>
     <div id="status">Place holder</div>
+        <div class="galary_wrapper">
+        <style>
+        :root {
+            --h: 30vh;
+            --g: 1em;
+        }
+
+        * {
+            margin: 0; padding: 0;
+        }
+
+        .galary_wrapper {
+            top: 15.2vh;
+            width: 100vw; height: var(--h);
+            position: absolute;
+            overflow: hidden;
+            z-index: -100;
+        }
+        .galary_scroller{
+            height: 100vw; width: var(--h);
+            overflow: scroll;
+            position: relative;
+            transform-origin: left top;
+            rotate: -90deg;
+            translate: 0 var(--h);
+            scrollbar-width: none;
+            left: 50%; transform: translate(0,-50%);
+        }
+
+        .galary {
+            min-height: 100%; width: var(--h); 
+            overflow-x: scroll; gap: var(--g);
+            user-select: none;
+        }
+
+        .galary:focus {
+            filter: blur(5px);
+        }
+
+        .galary:active .img_wrapper:not(.img_wrapper:active) 
+        .galary:hover .img_wrapper:not(.img_wrapper:hover) {
+            filter: brightness(0.3) blur(3px); 
+        }
+
+        .img_wrapper {
+            overflow: hidden;
+            height: fit-content; width: 100%;
+            rotate: 180deg;
+            transition: all ease-in-out 1s;
+        }
+
+        .img_file {
+            pointer-events: auto;
+            transform: translate(-50%);
+            margin-left: 50%;
+            height: auto; max-width: var(--h); min-width: var(--h);
+            /* position: absolute; */
+            transition: all ease 1s;
+        }
+
+        .img_wrapper:hover .img_file {
+            max-width: calc(var(--h)*2);
+        }
+
+        .img_info {
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            vertical-align: center;
+            width: 100%; height: 100%;
+            opacity: 0;
+
+            /* background-color: white; */
+            color: black;
+            transition: all ease-in 0.5s;
+        }
+
+        .img_info:hover {
+            opacity: 1;
+        }
+    </style>
+    <div class="galary_scroller">
     <div class="galary">
-        <div class="swiper slider slider_main">
-            <div class="swiper-wrapper swiper__wrapper">
-            </div>
-        </div></div>
+    </div></div></div>
+
+<script defer>
+    const galary = document.querySelector('.galary');
+    for (let mirror = 0; mirror < 2; mirror++){
+        for (let i = 1; i <= 63; i++) {    
+            let new_wrap = document.createElement('div');
+            new_wrap.classList.add("img_wrapper");
+            new_wrap.innerHTML = 
+                // `<div class="img_info">тестовый текст</div>` +
+                 `<img src="images/${i}.jpg" loading="lazy" draggable="false" alt="" class="img_file">`
+            // +     `<img src="images/${i}.jpg" alt="" class="img_file blur">`
+            galary.appendChild(new_wrap);
+        }
+    }
+    const galary_scroller = document.querySelector('.galary_scroller'); 
+    const elements = Array.from(galary.getElementsByClassName("img_wrapper"));
+    let should_scroll = true;
+    let scrooler_amount = 0;
+
+    async function smoothScroll(start = 10) {
+        if (start == -1){
+            let minmal = 0; const wch = document.documentElement.clientWidth;
+            for (let index = 1; index <= elements.length/2 && should_scroll; index+=1) {
+                minmal = Math.abs(elements[index].getBoundingClientRect().x-wch/2) < Math.abs(elements[minmal].getBoundingClientRect().x-wch/2) ? index : minmal;
+                // //console.log(elements[minmal].getBoundingClientRect().x)
+            }
+            start = minmal;
+        } else if (scrooler_amount > 1) {scrooler_amount--;return;}
+        for (let index = start; index <= elements.length/2+start && should_scroll; index+=1) {
+            elements[index].scrollIntoView({ behavior: "smooth", block: "center" });
+            // //console.log(element);
+            // console.log(galary.getBoundingClientRect().top);
+            do {
+                //console.log(galary.getBoundingClientRect().top);
+                await new Promise(resolve => setTimeout(resolve, 3000));
+
+            } while (galary.getBoundingClientRect().top < 0)
+            // while (true) {
+                // console.log(galary.getBoundingClientRect().top);
+                // await new Promise(resolve => setTimeout(resolve, 3000));
+                // if (galary.getBoundingClientRect().top < 0) break;
+            // }
+            if (scrooler_amount>1){
+                scrooler_amount--;
+                return;
+            }
+        }
+        scrooler_amount--;
+        if (should_scroll) {
+            elements[0].scrollIntoView({ block: "center"});
+            scrooler_amount++;
+            smoothScroll(1);
+        }
+    }
+
+    // Запустить при загрузке
+    window.addEventListener("load", () => {
+        scrooler_amount++;
+        smoothScroll();
+    });
+
+    galary.addEventListener("mouseenter", (e)=>{
+        should_scroll= false;
+    });
+    galary.addEventListener("mouseleave", (e)=>{
+        should_scroll = true;
+        scrooler_amount++;
+        smoothScroll(-1);
+        
+    });
+
+    // const observer = new IntersectionObserver((entries) => {
+    //     entries.forEach(entry => {
+    //         if (entry.{
+    //             isIntersecting)
+    //     })
+    // });
+</script>
     <!-- <h1 id = "AHDPEEEWiki">AHDPEEEWiki</h1> -->
     <img src="images\AHDPEEEWiki.png" alt="Для отдаление/приближения; Колонны можно вращать свайпами или стрелками" id = "AHDPEEEWiki">
     <img src="images\ui.png" alt="Для отдаление/приближения; Колонны можно вращать свайпами или стрелками" id="ui">
-    <div id="swipe3d1" class="swipe3d">
-        <img src="images\arrows.gif" class="arrows">
+    <img src="images\arrows.gif" class="arrows">
+    <div id="swipe3d1" class="swipe3d three-d">
         <div class="noteblock" id="day"                 >day</div>
         <div class="noteblock" id="ideas-projects"      >ideas</div>
         <div class="noteblock" id="people"              >people</div>
         <div class="noteblock" id="content for discover">content</div>
     </div>
-    <div id="perspective" class="swipe3d">
+    <div id="perspective" class="swipe3d three-d">
         <div class="noteblock bottom" id="citates">тык</div>
         <div class="noteblock bottom" id="bottom1"></div>
         <div class="noteblock bottom" id="memories"></div>
         <div class="noteblock bottom" id="bottom2"></div>
     </div>
-    <img src="images\ui.png" alt="Для отдаление/приближения; Колонны можно вращать свайпами или стрелками" id="ui"">
+    <img src="images\ui.png" alt="Для отдаление/приближения; Колонны можно вращать свайпами или стрелками" id="ui" style="margin-top: 0;">
     
     <div style="justify-content: space-around; display: flex; width: 100%; height: 5vh; margin: 5vh 0 5vh 0; vertical-align: middle;">
         <a class="icon-link" href="https://ahdpeee.itch.io/"> <img class="bi" src="images\itch-io.svg"> </a>
@@ -40,12 +197,13 @@
         <a class="icon-link" href="https://t.me/aHDpeee"> <img class="bi" src="images\телеграм.svg"> </a>
         <a class="icon-link" href="https://www.twitch.tv/reolodev"> <img class="bi" src="images\twitch.svg"> </a>
     </div>
+    <div id="commentbox"></div>
     
     <!-- <div class="perspective">
     <div class="citates" id="citates">+++++++++</div></div> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="galary.js"></script>
+    <!-- <script src="galary.js"></script> -->
     <script src="comment.js"></script>
     <script src="scripts.js"></script>
 </body>

@@ -10,9 +10,9 @@ pages1 = ["day", "people", "content for discover", "ideas-projects", "memories"]
 
 pages1.forEach(async (element) => {
     try {
-        console.log(element)
+        //console.log(element)
         const response = await fetch(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
-        // console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
+        // //console.log(`https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/${element}.md`);
 
         let text = await response.text();
         const pageId = document.getElementById(element);
@@ -33,7 +33,7 @@ pages1.forEach(async (element) => {
 
 function typeWriterEffect(text, element, speed=10){
     text = md2html(text);
-    console.log(text);
+    //console.log(text);
     element.textContent = '';
     let i = 0;
     function type(){
@@ -84,7 +84,7 @@ function md2html(text) {
     text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
     text = text.replace(/<p>\s*<\/p>/g, "");
 
-    // console.log(text);
+    // //console.log(text);
     return text; 
 }
 

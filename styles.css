@@ -57,14 +57,17 @@ body {
     font-size: calc(var(--sizeindex)*1.5);
     min-height: 100vh;
     position: relative;
-    transform-style: preserve-3d;
 }
 
+.three-d {
+    
+    transform-style: preserve-3d;
+}
 #AHDPEEEWiki{
     mix-blend-mode:difference;
-    width: 90%;
+    width: 90vw; height: 15vw;
     margin-left: 5%;
-    margin-top: -10%;
+    top: 43.2vh;
     pointer-events: none;
     position: absolute;
     
@@ -72,8 +75,8 @@ body {
 }
 
 #ui {
-    margin-top: 5%;
-    width: 90%;
+    margin-top: calc(43.2vh + 15vw + 0.5em);
+    width: 90vw;
     margin-left: 5%;
     image-rendering: pixelated;
 }
@@ -83,18 +86,17 @@ body {
 }
 
 #status{
-    transform: rotate(15deg);
-    width: 25%; height: auto;
+    /* transform: rotate(15deg); */
+    width: 100vw; height: auto;
     top: 3vh; right: 1vw; position: absolute;
     text-wrap: anywhere;
     text-align: center;
 }
 
 .arrows {
-    width: 95%;
-    margin-top: 50%;
-    margin-left:92.5%;
-    position: absolute;
+    width: 95%; top: 50vh;
+    left: 95%;
+    position: fixed;
     transform: translate(-100%,-50%);
     z-index: 100;
     image-rendering: pixelated;
@@ -136,39 +138,6 @@ body {
     pointer-events: none;
     opacity: 0.0;
     overflow-wrap: anywhere;
-}
-
-.galary {
-    overflow: hidden;
-    padding-top: 10vh;
-    height: max-content;
-    width: 100%;
-    z-index: -100;
-    will-change: transform;
-}
-.slider {
-    transform: rotate(15deg);
-    overflow: visible!important;
-}
-.swiper__wrapper {
-    transition: var(--transition)!important;
-    height: 30vh!important;
-    will-change: transform;
-}
-.slider__item {
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.slider_img {
-    width: 30vh;
-    height: 100%;
-    background-size: cover;
-    position: absolute;
-    /* left: -50%; */
-    transition: var(--transition)!important;
-    will-change: transform;
 }
 
 
@@ -285,9 +254,8 @@ input[type="checkbox"]::before {
         will-change: transform;
     }
     #AHDPEEEWiki {
-        width: 50%;
+        height: 7.5vw; width: 50vw;
         margin-left: 25%;
-        margin-top: -4%;
     }
     #perspective{
         perspective: 1500px; 
@@ -295,28 +263,25 @@ input[type="checkbox"]::before {
         width: 70%;
     }
     #ui {
+        margin-top: calc(43.2vh + 7.5vw + 0.25em);
         width: 50%;
         margin-left: 25%;
         image-rendering:
         pixelated;
     }
     .arrows {
-        width: 55%;
-        margin-top: 50%;
-        margin-left:52.5%;
+        width: 55%; top: 50%;
     }
     #status{
-        transform: rotate(15deg);
-        width: 25%; height: auto;
-        top: 8vh; right: 5vw; position: absolute;
+        top: 2vh; position: absolute;
         text-wrap: anywhere;
         text-align: center;
     }
 }
 
 #comment {
-    position: sticky ;
-    bottom: 10vh; left: 20vw;
+    position: fixed;
+    top: 25vh; left: 20vw;
     width: 60vw; height: 50vh;
     z-index: 9999;
 

@@ -34,7 +34,7 @@ class MarkdownRenderer {
         }
         text = "<p>" + text.replaceAll(/\n/g, "</p><p>") + "</p>";
         text = text.replace(/<p>\s*<\/p>/g, "");
-        console.log(text)
+        //console.log(text)
         return text;
     }
 
