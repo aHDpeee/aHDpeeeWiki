@@ -342,13 +342,6 @@ function updateActiveSlider() {
     });
 }
 
-document.getElementById("citates").addEventListener('click', async () => {
-    const response = await fetch('https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/citates.md');
-    const text = await response.text();
-    const lines = text.split('\n---').filter(line => line.trim() !== '');
-    const randomLine = lines[Math.floor(Math.random() * lines.length)];
-    MarkdownRenderer.typeWriterEffect(randomLine.trim(), document.getElementById("citates"));
-});
 
 window.addEventListener("scroll", updateActiveSlider);
 window.addEventListener("resize", updateActiveSlider);
@@ -360,9 +353,9 @@ const swipe1 = new folders("swipe3d1", pages1);
 
 const pages2 = ["citates", "bottom1", "memories", "bottom2"];
 deg = 60;
-const defaultperspective = [`translateY(-25%)                rotateX(${deg}deg)`,
+const defaultperspective = [`translateY(-25%)            rotateX(${deg}deg)`,
                             `translate3d(50%, -25%, 0)   rotateX(${deg}deg)`,
-                            `translate3d(0, -25%, 0)         rotateX(-${deg}deg)`,
+                            `translate3d(0, -25%, 0)     rotateX(-${deg}deg)`,
                             `translate3d(-50%, -25%, 0)  rotateX(${deg}deg)`]
 
                             
@@ -413,3 +406,13 @@ async function auto_scroll(query) {
 
     observer.observe(query);
 }
+
+
+document.getElementById("perspective").addEventListener("click", async () => {
+    if (swipe2.pages[swipe2.active] != "citates") return;
+    const response = await fetch('https://aHDpeee.github.io/aHDpeeeWiki/RepoSyncFolder/citates.md');
+    const text = await response.text();
+    const lines = text.split('\n---').filter(line => line.trim() !== '');
+    const randomLine = lines[Math.floor(Math.random() * lines.length)];
+    MarkdownRenderer.typeWriterEffect(randomLine.trim(), document.getElementById("citates"));
+});
