@@ -1,1 +1,2 @@
-иногда чтобы решиться объединиться, нужно представить что вас уже много
+broadcast all my life to one human?
+it is too much for both.. 
