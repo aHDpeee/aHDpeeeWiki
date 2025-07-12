@@ -4,4 +4,5 @@
 - [ ] математика
 - [ ] книга
 - [ ] file manager 
-- [ ] keyboard
+- [ ] keyboard 
+- [ ] p
