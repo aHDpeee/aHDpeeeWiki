@@ -5,4 +5,4 @@
 - [ ] книга
 - [ ] file manager 
 - [ ] keyboard 
-- [ ] previ
+- [ ] preview
