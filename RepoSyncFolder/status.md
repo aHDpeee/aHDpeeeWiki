@@ -1,2 +1,1 @@
-broadcast all my life to one human?
-it is too much for both.. 
+все бесплатное в этой жизни стоит времени
