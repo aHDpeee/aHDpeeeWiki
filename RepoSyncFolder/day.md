@@ -1,3 +1,3 @@
 ## Just plan
 - [ ] vim
-- [ ] anu
+- [ ] animations
