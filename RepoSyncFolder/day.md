@@ -1,2 +1,3 @@
 ## Just plan
-- [ ]
+- [ ] vim
+- [ ] anu
