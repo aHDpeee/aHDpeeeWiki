@@ -5,5 +5,4 @@
 - [ ] private voice/video calls
 - [ ] max real info
 - [ ] СУНЦ?
-- [ ] WB,
-- [ ] ?
+- [ ] WB ?
