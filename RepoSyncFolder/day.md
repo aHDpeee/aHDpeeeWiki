@@ -1,3 +1,3 @@
 ## Just plan
 - [ ] электронная почта
-- [ ] mail
+- [ ] mail box bri
