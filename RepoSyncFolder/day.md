@@ -7,4 +7,4 @@
 - [ ] срочно фиксить вылет клавы
 - [ ] merge with new release
 - [ ] What the difference between GitHub and GitLab?
-- [ ]
+- [ ] мои потери многочивы
