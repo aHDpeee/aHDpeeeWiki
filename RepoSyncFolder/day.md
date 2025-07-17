@@ -3,7 +3,7 @@
 - [x] найти адрес
 - [ ] хуже всего что все правы.. 
 - [ ] даль это так круто! 
-- [ ] встреча.. 
+- [x] встреча..
 - [ ] срочно фиксить вылет клавы
 - [ ] merge with new release
 - [ ] What the difference between GitHub and GitLab?
