@@ -8,4 +8,4 @@
 - [ ] merge with new release
 - [ ] What the difference between GitHub and GitLab?
 - [ ] мои потери... я терялся? было..
-- [ ] дизайн мышление и при
+- [ ] дизайн мышление и применение ино
