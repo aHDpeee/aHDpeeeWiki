@@ -5,4 +5,4 @@
 - [ ] даль это так круто! 
 - [ ] встреча.. 
 - [ ] срочно фиксить вылет клавы
-- [ ] merge with new releas
+- [ ] merge with new release
