@@ -3,7 +3,7 @@
 - [ ] даль это так круто! 
 - [ ] срочно фиксить вылет клавы
 - [ ] merge with new release
-- [ ] What the difference between GitHub and GitLab?
+- [x] What the difference between GitHub and GitLab?
 - [ ] мои потери... я терялся? было..
 - [ ] дизайн мышление и применение инноваций 
 - [ ] да какие хочешь таких вещей мы ещё не додумались
