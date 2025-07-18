@@ -4,3 +4,4 @@
 - [ ] электронная почта
 - [ ] mail box briar
 - [ ] private voice/video calls
+- [ ] дайджест
