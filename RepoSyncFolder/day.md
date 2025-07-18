@@ -1,8 +1,8 @@
 ## Just plan
+- [ ] merge with new release
 - [ ] хуже всего что все правы.. 
 - [ ] даль это так круто! 
 - [ ] срочно фиксить вылет клавы
-- [ ] merge with new release
 - [x] What the difference between GitHub and GitLab?
 - [ ] мои потери... я терялся? было..
 - [ ] дизайн мышление и применение инноваций 
