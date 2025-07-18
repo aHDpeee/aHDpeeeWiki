@@ -1,7 +1,7 @@
 ## Just plan
 - [ ] merge with new release
 - [ ] срочно фиксить вылет клавы
-- [ ] электронная почта
+- [-] электронная почта
 - [-] mail box briar
 - [x] private voice/video calls
 - [-] дайджест
