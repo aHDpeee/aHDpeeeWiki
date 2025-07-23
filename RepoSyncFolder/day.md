@@ -7,3 +7,4 @@
 - [x] канал
 - [ ] поиск ответов и поиск вопросов
 - [ ] self knowledge questions insights
+- [ ]
