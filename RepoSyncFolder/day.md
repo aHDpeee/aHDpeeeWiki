@@ -9,4 +9,4 @@
 - [ ] self knowledge questions insights
 - [ ] заставлять людей думать
 - [ ] уникальные процессы протезы
-- [ ] ebook nor
+- [ ] ebook notes
