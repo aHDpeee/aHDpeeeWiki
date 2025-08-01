@@ -114,9 +114,6 @@ Not now but I think in recent future I need it
 [[Habbit tracker!!]]
 maybe this would be a great android project?
 
----
-[[Приложение открывающее рандомный пост из тг]]
-I want to be a good friend..
 
 ---
 [[app for random ege variant every day]]
