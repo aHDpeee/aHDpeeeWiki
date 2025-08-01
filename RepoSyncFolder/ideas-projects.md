@@ -112,7 +112,7 @@ Not now but I think in recent future I need it
 
 ---
 [[Habbit tracker!!]]
-maybe this would be a great android project?
+*maybe this would be a great android project?*
 
 ---
 [[Приложение открывающее рандомный пост из тг]]
