@@ -131,4 +131,4 @@ or another way for creating information
 
 ---
 [[Последний раз я...]]
-
+Бот или прило
