@@ -135,4 +135,4 @@ or another way for creating information
 
 ---
 [[Мысль2]]
-Один 
+Один из тех п
