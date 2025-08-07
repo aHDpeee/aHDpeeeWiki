@@ -1,2 +1,3 @@
 ## Just plan
-- [ ] marketing brains
+- [ ] marketing brainstorm 
+- [ ]
