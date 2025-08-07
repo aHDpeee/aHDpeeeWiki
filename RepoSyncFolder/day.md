@@ -1,3 +1,2 @@
 ## Just plan
-- [ ] marketing brainstorm 
-- [ ] do not
+- [ ] marketing brainstorm
