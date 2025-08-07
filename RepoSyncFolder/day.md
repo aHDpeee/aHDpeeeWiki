@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] marketing b
+- [ ] marketing brains
