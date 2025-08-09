@@ -4,3 +4,4 @@
 - [ ] [Публичные api](https://github.com/public-apis/public-apis?tab=readme-ov-file#book)
 - [ ] [Бесплатные приложения](https://github.com/Axorax/awesome-free-apps?tab=readme-ov-file#sync-and-clone)
 - [ ] замена kasperski
+- [ ] источник курсов/ какие хотелось бы курсы
