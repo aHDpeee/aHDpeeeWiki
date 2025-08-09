@@ -28,4 +28,5 @@
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
 - [ ] [MapsMe Запуск завтра](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
+- [ ] AutoHotKey
 - [ ]
