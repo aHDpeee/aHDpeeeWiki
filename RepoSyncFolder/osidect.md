@@ -26,4 +26,4 @@
 - [ ] [личные дневники](https://corpus.prozhito.org/person/6983)
 - [ ] стих на каждый день (бот мб?)
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
-- [ ] [карты](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
+- [ ] [Maps m](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
