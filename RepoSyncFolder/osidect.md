@@ -12,4 +12,4 @@
 - [ ] угадайки для прогеров
 - [ ] [AR stree art](https://apps.apple.com/ca/app/guerila-ar-street-art/id6621189450)
 - [ ] https://chat.z.ai/ и иные поисковики (см пост про карту книг и тп)
-- [ ] [https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore](https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore "https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore")
+- [ ] [](https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore "https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore")
