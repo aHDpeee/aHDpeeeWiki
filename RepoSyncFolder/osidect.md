@@ -21,4 +21,4 @@
 - [ ] [Плагины обсидиан втч](https://obsidian.md/clipper "https://obsidian.md/clipper")
 - [ ] multiplicitry
 - [ ] [Сайты для рекомендации книг](https://www.reddit.com/r/books/comments/txqn1r/what_websites_do_you_use_for_book_recommendations/?tl=ru)
-- [ ]
+- [ ] Забастовки про отмену рукописного текстов калифорнии
