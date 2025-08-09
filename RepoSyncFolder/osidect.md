@@ -17,4 +17,4 @@
 - [ ] [Для исследований есть агенты, глубокий поиск и тп](https://getliner.com/?didSignUp=true&entryType=first_touch&stableId=8eb905fb-99b1-4e48-bfa3-246cf8241a53)
 - [ ] fire fox plugins
 - [ ] browser (can recommend channel with browser ultimate design comapertion)
-- [ ] windows better file search
+- [ ] windows better file search (P)
