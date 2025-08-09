@@ -20,3 +20,4 @@
 - [ ] windows better file search (PowerToys but better) *Flow Launcher, Ueli, Fluent Search*
 - [ ] [Плагины обсидиан втч](https://obsidian.md/clipper "https://obsidian.md/clipper")
 - [ ] multiplicitry
+- [ ]
