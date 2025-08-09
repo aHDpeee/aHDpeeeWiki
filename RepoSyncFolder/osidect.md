@@ -10,4 +10,4 @@
 - [ ] шейдеры опера
 - [ ] [Clipboard OCR](https://apps.microsoft.com/detail/9mvcljcs3jtt?ocid=webpdpshare)
 - [ ] угадайки для прогеров
-- [ ] AR stree art
+- [ ] [AR stree art](https://apps.apple.com/ca/app/guerila-ar-street-art/id6621189450)
