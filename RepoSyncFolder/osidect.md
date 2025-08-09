@@ -14,3 +14,4 @@
 - [ ] https://chat.z.ai/ и иные поисковики (см пост про карту книг и тп)
 - [ ] [Клонирование голоса](https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore "https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore")
 - [ ] [Похожие тгк](https://github.com/SocialLinks-IO/telegram-similar-channels "https://github.com/SocialLinks-IO/telegram-similar-channels")
+- [ ]
