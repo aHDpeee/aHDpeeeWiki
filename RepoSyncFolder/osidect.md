@@ -30,3 +30,4 @@
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
 - [ ] AutoHotKey
 - [ ] MacroDroid
+- [ ] https://t.me/TheFeedReaderBot
