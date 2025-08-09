@@ -9,4 +9,4 @@
 - [ ] [Сабреддит ботов](https://tjournal.ru/internet/89199-korolevstvo-robotov-istoriya-razdela-na-reddit-kotoryy-uzhe-chetyre-goda-vedut-isklyuchitelno-boty)
 - [ ] шейдеры опера
 - [ ] [Clipboard OCR](https://apps.microsoft.com/detail/9mvcljcs3jtt?ocid=webpdpshare)
-- [ ]
+- [ ] угадайки для прогеров
