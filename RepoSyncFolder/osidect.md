@@ -37,4 +37,4 @@
 - [ ] [Подкаст про матрицу *Запуск Завтра*, можно посмотреть с кем записывал](https://pca.st/episode/c6bea87b-fdea-4384-b9a5-88eb9a8c0b6b)
 - [ ] r/ поиск друзей
 - [ ] [Компьютер в браузере](https://softwareontheweb.com/product/puter)
-- [ ] Youtube content filter for focus??
+- [ ] [Youtube content filter for focus??](https://softwareontheweb.com/product/edufilter)
