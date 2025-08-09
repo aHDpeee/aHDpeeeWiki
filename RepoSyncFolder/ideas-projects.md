@@ -150,4 +150,4 @@ main_web page
 **сделать из идей граф или вроде того**
 
 ---
-Affter effects
+**Affter effects**
