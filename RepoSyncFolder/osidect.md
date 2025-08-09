@@ -23,3 +23,4 @@
 - [ ] [Сайты для рекомендации книг](https://www.reddit.com/r/books/comments/txqn1r/what_websites_do_you_use_for_book_recommendations/?tl=ru)
 - [ ] Забастовки про отмену рукописного текстов калифорнии
 - [ ] code forces
+- [ ]
