@@ -1,5 +1,4 @@
 - [ ] github feed
-- [ ] разница адднов плагинов и прочей мешуры
 - [ ] уникальные протезы, современные киборги
 - [ ] [Выпускной альбом с закосом под автостопом по галактике](https://archive.org/details/ollapodrida1989unse)
 - [ ] [Публичные api](https://github.com/public-apis/public-apis?tab=readme-ov-file#book)
