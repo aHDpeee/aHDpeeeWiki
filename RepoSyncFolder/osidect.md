@@ -16,4 +16,4 @@
 - [ ] [Похожие тгк](https://github.com/SocialLinks-IO/telegram-similar-channels "https://github.com/SocialLinks-IO/telegram-similar-channels")
 - [ ] [Для исследований есть агенты, глубокий поиск и тп](https://getliner.com/?didSignUp=true&entryType=first_touch&stableId=8eb905fb-99b1-4e48-bfa3-246cf8241a53)
 - [ ] fire fox plugins
-- [ ] browser (can recomend )
+- [ ] browser (can recomen)
