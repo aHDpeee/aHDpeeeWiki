@@ -5,4 +5,4 @@
 - [ ] [Бесплатные приложения](https://github.com/Axorax/awesome-free-apps?tab=readme-ov-file#sync-and-clone)
 - [ ] замена kasperski
 - [ ] источник курсов/ какие хотелось бы курсы
-- [ ] Как люди слышат русских [O]([https://youtube.com/shorts/BhWMynlgsv4?si=3-nuqRkWr-Rnb-Gx](https://youtub)
+- [ ] Как люди слышат русских [O]([https://youtube.com/shorts/BhWMynlgsv4?si=3-nuqRkWr-Rnb-Gx]()
