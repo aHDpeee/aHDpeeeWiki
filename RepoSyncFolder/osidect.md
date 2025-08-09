@@ -6,4 +6,4 @@
 - [ ] замена kasperski
 - [ ] источник курсов/ какие хотелось бы курсы
 - [ ] Как люди слышат русских [O](https://youtube.com/shorts/BhWMynlgsv4?si=3-nuqRkWr-Rnb-Gx)
-- [ ]
+- [ ] [https://tjournal.ru/internet/89199-korolevstvo-robotov-istoriya-razdela-na-reddit-kotoryy-uzhe-chetyre-goda-vedut-isklyuchitelno-boty](https://tjournal.ru/internet/89199-korolevstvo-robotov-istoriya-razdela-na-reddit-kotoryy-uzhe-chetyre-goda-vedut-isklyuchitelno-boty)
