@@ -25,3 +25,4 @@
 - [ ] code forces
 - [ ] [личные дневники](https://corpus.prozhito.org/person/6983)
 - [ ] стих на каждый день (бот мб?)
+- [ ]
