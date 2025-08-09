@@ -1,1 +1,1 @@
-- [ ] gith
+- [ ] github feed
