@@ -32,4 +32,4 @@
 - [ ] MacroDroid
 - [ ] https://t.me/TheFeedReaderBot
 - [ ] https://t.me/done_by_habit_bot
-- [ ]
+- [ ] Сайт
