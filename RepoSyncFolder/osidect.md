@@ -1,4 +1,5 @@
 - [ ] github feed
+- [ ] разница адднов плагинов и прочей мешуры
 - [ ] уникальные протезы, современные киборги
 - [ ] [Выпускной альбом с закосом под автостопом по галактике](https://archive.org/details/ollapodrida1989unse)
 - [ ] [Публичные api](https://github.com/public-apis/public-apis?tab=readme-ov-file#book)
@@ -28,7 +29,6 @@
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
 - [ ] [MapsMe Запуск завтра](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
-- [ ] разница адднов плагинов и прочей мешуры
 - [ ] AutoHotKey (см бог видео, там есть еще может интересный канал)
 - [ ] MacroDroid
 - [ ] https://t.me/TheFeedReaderBot
