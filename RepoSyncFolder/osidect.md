@@ -9,7 +9,7 @@
 - [ ] [Сабреддит ботов](https://tjournal.ru/internet/89199-korolevstvo-robotov-istoriya-razdela-na-reddit-kotoryy-uzhe-chetyre-goda-vedut-isklyuchitelno-boty)
 - [ ] шейдеры опера
 - [ ] [Clipboard OCR](https://apps.microsoft.com/detail/9mvcljcs3jtt?ocid=webpdpshare)
-- [ ] угадайки для прогеров
+- [ ] [угадайки для прогеров](https://www.codeguessr.com/)
 - [ ] [AR stree art](https://apps.apple.com/ca/app/guerila-ar-street-art/id6621189450)
 - [ ] https://chat.z.ai/ и иные поисковики (см пост про карту книг и тп)
 - [ ] [Клонирование голоса](https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore "https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore")
