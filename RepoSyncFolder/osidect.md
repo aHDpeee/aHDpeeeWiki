@@ -38,4 +38,4 @@
 - [ ] r/ поиск друзей
 - [ ] [Компьютер в браузере](https://softwareontheweb.com/product/puter)
 - [ ] [Youtube content filter for focus??](https://softwareontheweb.com/product/edufilter)
-- [ ] Ai content
+- [ ] Ai content maker
