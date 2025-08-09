@@ -3,4 +3,4 @@
 - [ ] [Выпускной альбом с закосом под автостопом по галактике](https://archive.org/details/ollapodrida1989unse)
 - [ ] [Публичные api](https://github.com/public-apis/public-apis?tab=readme-ov-file#book)
 - [ ] [Бесплатные приложения](https://github.com/Axorax/awesome-free-apps?tab=readme-ov-file#sync-and-clone)
-- [ ]
+- [ ] замена kasperski
