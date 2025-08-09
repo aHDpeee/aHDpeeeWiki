@@ -1,4 +1,4 @@
 - [ ] github feed
 - [ ] уникальные протезы, современные киборги
-- [ ] [Выпускной альбом с закосом под автостопом по галактике]https://archive.org/details/ollapodrida1989unse")
+- [ ] [Выпускной альбом с закосом под автостопом по галактике]https://archive.org/details/ollapodrida1989unse)
 - [ ]
