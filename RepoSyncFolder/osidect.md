@@ -18,4 +18,4 @@
 - [ ] fire fox plugins
 - [ ] browser (can recommend channel with browser ultimate design comapertion)
 - [ ] windows better file search (PowerToys but better) *Flow Launcher, Ueli, Fluent Search*
-- [ ] [И](https://obsidian.md/clipper "https://obsidian.md/clipper")
+- [ ] [Плаг](https://obsidian.md/clipper "https://obsidian.md/clipper")
