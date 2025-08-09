@@ -32,4 +32,5 @@
 - [ ] MacroDroid
 - [ ] https://t.me/TheFeedReaderBot
 - [ ] https://t.me/done_by_habit_bot
-- [ ] Сайт для обучения разработке в игре
+- [ ] [Сайт для обучения разработке в игре](https://www.codedex.io/)
+- [ ]
