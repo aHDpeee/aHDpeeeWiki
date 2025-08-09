@@ -3,7 +3,7 @@ path includes Размышления
 sort by random
 limit 3
 ```
- 
+
 <details>
 
 - [ ] До каких простых вещей мы еще не додумались???
