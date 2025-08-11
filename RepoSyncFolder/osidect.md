@@ -1,4 +1,11 @@
 - [ ] github feed
+- [ ] пословицы дня и слова до на английском
+- [ ] необычные соцсети и тп
+- [ ] имеджборд
+- [ ] stay focused app
+- [ ] завели себе пингвина вот такой вышины
+- [ ] @
+- [ ] [Blender and math](https://youtu.be/lrwSZNVyZMk?si=WbSe9Ipl687hPKiG)
 - [ ] уникальные протезы, современные киборги
 - [ ] [Выпускной альбом с закосом под автостопом по галактике](https://archive.org/details/ollapodrida1989unse)
 - [ ] [Публичные api](https://github.com/public-apis/public-apis?tab=readme-ov-file#book)
