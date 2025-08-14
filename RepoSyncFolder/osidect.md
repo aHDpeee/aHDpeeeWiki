@@ -31,7 +31,7 @@
 - [ ] Забастовки про отмену рукописного текстов калифорнии
 - [ ] code forces
 - [ ] [личные дневники](https://corpus.prozhito.org/person/6983)
-- [ ] стих на каждый день (бот мб?)
+- [ ] стих на каждый день [(бот мб?)](https://kelijah.livejournal.com/314989.html)
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
 - [ ] [MapsMe Запуск завтра](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
