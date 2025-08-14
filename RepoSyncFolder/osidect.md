@@ -46,4 +46,5 @@
 - [ ] [Youtube content filter for focus??](https://softwareontheweb.com/product/edufilter)
 - [ ] [Ai content maker](https://softwareontheweb.com/product/creating-posts)
 - [x] github feed
+- [x] необычные соцсети и тп
 - [x] monkeytype
