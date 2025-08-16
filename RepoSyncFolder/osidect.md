@@ -1,4 +1,4 @@
-- [ ] Flow Launcher *a lot of plugins *
+- [ ] Flow Launcher *a lot of plugins, spo*
 - [ ] [Language for commit based on emojies](https://gitmoji.dev/)
 - [ ] 4х мерный кубик рубика
 - [ ] пословицы дня и слова до на английском
