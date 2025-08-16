@@ -1,5 +1,5 @@
 - [ ] Flow Launcher *a lot of plugins, spotlight search*
-- [ ] [Time machine]
+- [ ] [Time machine](https://amnh-sciviz.github.io/amnh-time-machine/#floor2)
 - [ ] Todo app [.](https://amazingmarvin.com/)
 - [ ] [Language for commit based on emojies](https://gitmoji.dev/)
 - [ ] 4х мерный кубик рубика
