@@ -1,6 +1,5 @@
 - [ ] Flow Launcher *a lot of plugins, spotlight search*
 - [ ] Todo app [.](https://amazingmarvin.com/)
-- [ ] 
 - [ ] [Language for commit based on emojies](https://gitmoji.dev/)
 - [ ] 4х мерный кубик рубика
 - [ ] пословицы дня и слова до на английском
