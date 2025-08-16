@@ -1,1 +1,1 @@
-Ctrl + shift + e ZOOM SCREEN      
+Ctrl + shift + e ZOOM SCREEN 
