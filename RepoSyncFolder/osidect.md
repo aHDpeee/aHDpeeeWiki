@@ -1,4 +1,4 @@
-- [ ] [Language for commit based ]()
+- [ ] [Language for commit based on emoj]()
 - [ ] 4х мерный кубик рубика
 - [ ] пословицы дня и слова до на английском
 - [ ] имеджборд
