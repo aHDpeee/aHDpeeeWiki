@@ -1,5 +1,5 @@
 - [ ] Flow Launcher *a lot of plugins, spotlight search*
-- [ ] Is it 
+- [ ] Libr
 - [ ] [Time machine](https://amnh-sciviz.github.io/amnh-time-machine/#floor2)
 - [ ] all tv time travels ![[Файлы/2552_IIB_Timelines-1 1.png]]
 - [ ] [pictures and brushes of real fishs](https://paperkingdom.brianfoo.com/)
