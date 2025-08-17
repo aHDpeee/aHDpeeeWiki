@@ -1,5 +1,5 @@
 - [ ] Flow Launcher *a lot of plugins, spotlight search*
-- [ ] voice acces on wi
+- [ ] voice acces on windows
 - [ ] Library of babel [smth interesting](https://player.vimeo.com/video/253667099?autoplay=1&playsinline=1&color&autopause=0&loop=1&muted=0&title=0&portrait=0&byline=0#t=)
 - [ ] [Time machine](https://amnh-sciviz.github.io/amnh-time-machine/#floor2)
 - [ ] all tv time travels ![[Файлы/2552_IIB_Timelines-1 1.png]]
