@@ -2,7 +2,7 @@
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
 - [ ] [Google about meaning fort machines](https://www.youtube.com/watch?v=wvsE8jm1GzE) 
 - [ ] voice acces on windows
-- [ ] krita [plugi]
+- [ ] krita [plugin for ]
 - [ ] [game where you recreating knots](https://www.youtube.com/watch?v=NeXDCGQ77rI)
 - [ ] Library of babel [smth interesting](https://player.vimeo.com/video/253667099?autoplay=1&playsinline=1&color&autopause=0&loop=1&muted=0&title=0&portrait=0&byline=0#t=)
 - [ ] [Time machine](https://amnh-sciviz.github.io/amnh-time-machine/#floor2)
