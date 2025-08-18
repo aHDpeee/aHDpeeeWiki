@@ -1,5 +1,5 @@
 - [ ] Flow Launcher *a lot of plugins, spotlight search*
-- [ ] [random sprite ]
+- [ ] [random sprite generator]
 - [ ] [Google about meaning fort machines](https://www.youtube.com/watch?v=wvsE8jm1GzE) 
 - [ ] voice acces on windows
 - [ ] [game where you recreating knots](https://www.youtube.com/watch?v=NeXDCGQ77rI)
