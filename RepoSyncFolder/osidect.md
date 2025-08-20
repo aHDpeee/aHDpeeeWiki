@@ -36,7 +36,6 @@
 - [ ] [Для исследований есть агенты, глубокий поиск и тп](https://getliner.com/?didSignUp=true&entryType=first_touch&stableId=8eb905fb-99b1-4e48-bfa3-246cf8241a53)
 - [ ] fire fox plugins
 - [ ] browser (can recommend channel with browser ultimate design comapertion)
-- [ ] windows better file search (PowerToys but better) *Flow Launcher, Ueli, Fluent Search*
 - [ ] [Плагины обсидиан втч](https://obsidian.md/clipper "https://obsidian.md/clipper")
 - [ ] multiplicitry
 - [ ] [Сайты для рекомендации книг](https://www.reddit.com/r/books/comments/txqn1r/what_websites_do_you_use_for_book_recommendations/?tl=ru)
