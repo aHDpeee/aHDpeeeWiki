@@ -15,7 +15,6 @@
 - [ ] пословицы дня и слова до на английском
 - [ ] имеджборд
 - [ ] https://informationisbeautiful.net/
-- [ ] stay focused app
 - [ ] заведи себе пингвина вот такой вышины
 - [ ] @
 - [ ] [Blender and math](https://youtu.be/lrwSZNVyZMk?si=WbSe9Ipl687hPKiG)
