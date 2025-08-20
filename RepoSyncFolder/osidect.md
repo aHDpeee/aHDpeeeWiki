@@ -30,7 +30,7 @@
 - [ ] [Clipboard OCR](https://apps.microsoft.com/detail/9mvcljcs3jtt?ocid=webpdpshare)
 - [ ] [угадайки для прогеров](https://www.codeguessr.com/)
 - [ ] [AR stree art](https://apps.apple.com/ca/app/guerila-ar-street-art/id6621189450)
-- [ ] https://chat.z.ai/ и иные поисковики (см пост про карту книг и тп)
+- [ ] иные поисковики (см пост про карту книг и тп)
 - [ ] [Клонирование голоса](https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore "https://github.com/myshell-ai/OpenVoice/blob/main/.gitignore")
 - [ ] [Похожие тгк](https://github.com/SocialLinks-IO/telegram-similar-channels "https://github.com/SocialLinks-IO/telegram-similar-channels")
 - [ ] [Для исследований есть агенты, глубокий поиск и тп](https://getliner.com/?didSignUp=true&entryType=first_touch&stableId=8eb905fb-99b1-4e48-bfa3-246cf8241a53)
