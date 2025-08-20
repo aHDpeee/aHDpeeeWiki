@@ -14,6 +14,7 @@
 - [ ] пословицы дня и слова до на английском
 - [ ] имеджборд
 - [ ] https://informationisbeautiful.net/
+- [ ] https://informationisbeautiful.net/visualizations/novels-everyone-should-read-interactive/
 - [ ] заведи себе пингвина вот такой вышины
 - [ ] @
 - [ ] [Blender and math](https://youtu.be/lrwSZNVyZMk?si=WbSe9Ipl687hPKiG)
