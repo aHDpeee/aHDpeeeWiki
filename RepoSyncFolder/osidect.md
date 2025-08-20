@@ -1,4 +1,3 @@
-- [x] Flow Launcher *a lot of plugins, spotlight search*
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
 - [ ] [Google about meaning fort machines](https://www.youtube.com/watch?v=wvsE8jm1GzE) 
 - [ ] voice acces on windows
