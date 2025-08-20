@@ -48,7 +48,7 @@
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
 - [ ] [MapsMe Запуск завтра](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
-- [ ] AutoHotKey (см бог видео, там есть еще может интересный канал)
+- [x] AutoHotKey (см бог видео, там есть еще может интересный канал)
 - [ ] MacroDroid
 - [ ] https://t.me/TheFeedReaderBot
 - [ ] https://t.me/done_by_habit_bot
