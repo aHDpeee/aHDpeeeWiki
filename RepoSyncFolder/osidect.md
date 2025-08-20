@@ -48,7 +48,6 @@
 - [ ] сделать соавторов для начала рубрикой (каждый раз душевный зазывающий пост)
 - [ ] [MapsMe Запуск завтра](https://pca.st/episode/7bc78ccc-3cf8-4593-af51-df9ee357e6fb)
 - [ ] [тг бот cpp](https://github.com/reo7sp/tgbot-cpp)
-- [x] AutoHotKey (см бог видео, там есть еще может интересный канал)
 - [ ] MacroDroid
 - [ ] https://t.me/TheFeedReaderBot
 - [ ] https://t.me/done_by_habit_bot
@@ -58,7 +57,8 @@
 - [ ] [Компьютер в браузере](https://softwareontheweb.com/product/puter)
 - [ ] [Youtube content filter for focus??](https://softwareontheweb.com/product/edufilter)
 - [ ] [Ai content maker](https://softwareontheweb.com/product/creating-posts)
-- [x] Flow Launcher *a lot of plugins, spotlight search*
+- [x] Flow Launcher *a lot of plugins, spotlight search
+- [x] AutoHotKey (см бог видео, там есть еще может интересный канал)*
 - [x] github feed
 - [x] необычные соцсети и тп
 - [x] monkeytype
