@@ -62,3 +62,4 @@
 - [x] github feed
 - [x] необычные соцсети и тп
 - [x] monkeytype
+- [x] stay focused app
