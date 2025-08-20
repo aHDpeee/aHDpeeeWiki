@@ -59,6 +59,7 @@
 - [ ] [Компьютер в браузере](https://softwareontheweb.com/product/puter)
 - [ ] [Youtube content filter for focus??](https://softwareontheweb.com/product/edufilter)
 - [ ] [Ai content maker](https://softwareontheweb.com/product/creating-posts)
+- [x] Flow Launcher *a lot of plugins, spotlight search*
 - [x] github feed
 - [x] необычные соцсети и тп
 - [x] monkeytype
