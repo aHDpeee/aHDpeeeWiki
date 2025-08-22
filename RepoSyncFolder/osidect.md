@@ -63,5 +63,3 @@
 - [x] monkeytype
 - [x] stay focused app
 - [x] all tv time travels ![[Файлы/2552_IIB_Timelines-1 1.png]]
-
-#
