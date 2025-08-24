@@ -2,6 +2,7 @@
 - [ ] https://futureboy.us/stegano/
 - [ ] [Google about meaning fort machines](https://www.youtube.com/watch?v=wvsE8jm1GzE) 
 - [ ] voice acces on windows
+- [ ] https://histography.io/
 - [ ] krita [plugin for 3d in krita](https://krita-artists.org/t/plugin-blender-layer-live-3d-view-in-krita/63394) [palette generator](https://krita-artists.org/t/palette-generator/55225) [plugins](https://krita-artists.org/c/resources/plugins/33)
 - [ ] [game where you recreating knots](https://www.youtube.com/watch?v=NeXDCGQ77rI)
 - [ ] Library of babel [smth interesting](https://player.vimeo.com/video/253667099?autoplay=1&playsinline=1&color&autopause=0&loop=1&muted=0&title=0&portrait=0&byline=0#t=)
