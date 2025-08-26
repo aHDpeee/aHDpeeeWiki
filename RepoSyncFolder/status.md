@@ -1,2 +1,1 @@
-so mindful silence would be the best choice
-no really..
+писать писать и ещё раз писать! 
