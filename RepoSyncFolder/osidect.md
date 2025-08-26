@@ -18,6 +18,7 @@
 - [ ] https://informationisbeautiful.net/
 - [ ] https://informationisbeautiful.net/visualizations/novels-everyone-should-read-interactive/
 - [ ] заведи себе пингвина вот такой вышины
+- [ ] https://mishakuz.ru/pr
 - [ ] @
 - [ ] [Blender and math](https://youtu.be/lrwSZNVyZMk?si=WbSe9Ipl687hPKiG)
 - [ ] уникальные протезы, современные киборги
