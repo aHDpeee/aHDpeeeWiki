@@ -1,3 +1,4 @@
 Ctrl + shift + e ZOOM SCREEN
 Ctrl + ;
-Alt 
+Alt + ;
+
