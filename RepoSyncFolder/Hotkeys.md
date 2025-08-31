@@ -1,4 +1,4 @@
 Ctrl + shift + e ZOOM SCREEN
 Ctrl + ;
 Alt + ;
-F - 
+F - browser
