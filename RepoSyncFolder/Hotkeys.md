@@ -1,4 +1,4 @@
 Ctrl + shift + e ZOOM SCREEN
 Ctrl + ;
-Alt + ; window
+Alt + ; windows vim
 F - browser vimium
