@@ -2,7 +2,6 @@
 - [ ] https://www.webbyawards.com/
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
 - [ ] https://futureboy.us/stegano/
-- [ ] [Google about meaning fort machines](https://www.youtube.com/watch?v=wvsE8jm1GzE) 
 - [ ] voice acces on windows
 - [ ] https://histography.io/
 - [ ] krita [plugin for 3d in krita](https://krita-artists.org/t/plugin-blender-layer-live-3d-view-in-krita/63394) [palette generator](https://krita-artists.org/t/palette-generator/55225) [plugins](https://krita-artists.org/c/resources/plugins/33)
