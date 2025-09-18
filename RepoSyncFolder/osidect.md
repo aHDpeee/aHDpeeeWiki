@@ -1,4 +1,4 @@
-- [ ] https://www.telefonica100.com/en/memorabilia
+- [ ] 
 - [ ] https://www.webbyawards.com/
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
 - [ ] https://futureboy.us/stegano/
