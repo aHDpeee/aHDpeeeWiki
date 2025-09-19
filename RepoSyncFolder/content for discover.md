@@ -17,7 +17,7 @@
 ---
 # Игры
 [Happy Game](https://store.steampowered.com/app/1206060/Happy_Game/), [Follow the Meaning](https://store.steampowered.com/app/2720280/Follow_the_meaning/), [Фонополис (Phonopolis)](https://store.steampowered.com/app/1206070/Phonopolis/), [Creaks](https://store.steampowered.com/app/956030/Creaks/), [Machinarium](https://store.steampowered.com/app/40700/Machinarium/), [WORLD OF HORROR](https://store.steampowered.com/app/913740/WORLD_OF_HORROR/), [Don't Starve](https://store.steampowered.com/app/219740/Dont_Starve/), [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Who is Lila](https://store.steampowered.com/app/1083830/Who_is_Lila/), [Journey - обзоры и оценки игры, даты выхода DLC, трейлеры, описание](https://www.igromania.ru/game/9888/Journey.html), [Complete_Turing](https://store.steampowered.com/app/1444480/Turing_Complete/), [[Файлы/MINDWAVE|MINDWAVE]]
-[The forest quartet *](https://store.steampowered.com/app/1620720/The_Forest_Quartet/)
+[The forest quartet *вроде хор](https://store.steampowered.com/app/1620720/The_Forest_Quartet/)
 [Necro dancer *про музыку*](https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/)
 
 ---
