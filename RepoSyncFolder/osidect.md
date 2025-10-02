@@ -1,7 +1,7 @@
 - [x] https://www.telefonica100.com/en/memorabilia
 - [ ] https://www.webbyawards.com/
-- [ ] [Fetching Title#uoiv](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
-- [ ] 
+- [ ] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
+- [ ] ende
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
 - [ ] https://futureboy.us/stegano/
 - [ ] voice acces on windows
