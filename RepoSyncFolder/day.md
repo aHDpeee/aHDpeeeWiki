@@ -5,4 +5,4 @@
 - [ ] hp
 - [ ] messenger 
 - [ ] ru
-- [ ] ajter
+- [ ] ajters
