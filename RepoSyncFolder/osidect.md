@@ -1,7 +1,7 @@
 - [x] https://www.telefonica100.com/en/memorabilia
 - [ ] https://www.webbyawards.com/
 - [ ] [GitHub - jifunks/botany: command line virtual plant buddy](https://github.com/jifunks/botany/)
-- [ ] 
+- [ ] [Fetching Title#n2cz](https://pypi.org/project/kaomoji/)
 - [ ] [GitHub - rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
