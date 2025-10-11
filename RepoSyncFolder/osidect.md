@@ -3,7 +3,7 @@
 - [ ] [GitHub - jifunks/botany: command line virtual plant buddy](https://github.com/jifunks/botany/)
 - [ ] [Client Challenge](https://pypi.org/project/kaomoji/)
 - [ ] markdown any tab browser extension
-- [ ] pipline 
+- [ ] pipline (offl)
 - [ ] [GitHub - rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
