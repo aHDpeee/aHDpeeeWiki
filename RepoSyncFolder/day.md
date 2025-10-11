@@ -1,4 +1,5 @@
 ## Just plan
 - [ ] r u okay about that? *baimax image*
 - [ ] Всегда ли шутки — это только шутки, а игры — это только игры, и когда наступает грань?
-- [ ] Osidect
+- [ ] Osidect 
+- [ ]
