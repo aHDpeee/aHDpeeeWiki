@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] r u oke
+- [ ] r u okey
