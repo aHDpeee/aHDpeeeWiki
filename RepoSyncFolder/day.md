@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] r u okay about that? *baimax ima*
+- [ ] r u okay about that? *baimax image*
