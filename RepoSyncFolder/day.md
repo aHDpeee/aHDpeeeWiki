@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] r u okay ab
+- [ ] r u okay about that
