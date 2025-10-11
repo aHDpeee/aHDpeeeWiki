@@ -1,2 +1,2 @@
 ## Just plan
-- [ ] r u okay about that? *baima*
+- [ ] r u okay about that? *baimax ima*
