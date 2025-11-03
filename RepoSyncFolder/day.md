@@ -1,3 +1,3 @@
 ## Just plan
 - [ ] BlackSandr
-- [ ]
+- [ ] Linuxo
