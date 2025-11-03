@@ -1,6 +1,6 @@
 ## Just plan
 - [ ] BlackSandr
-- [ ] Linuxoid
+- [x] Linuxoid
 - [ ] Belgia
 - [ ] Alice?
 - [ ] Marcela
