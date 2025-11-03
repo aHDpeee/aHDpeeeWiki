@@ -2,6 +2,6 @@
 - [ ] BlackSandr
 - [x] Linuxoid
 - [x] Belgia
-- [ ] Alice? STAR
+- [ ] Alice? STAR 
 - [x] Marcela
 - [ ]
