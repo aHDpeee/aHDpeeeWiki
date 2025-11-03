@@ -1,7 +1,7 @@
 ## Just plan
-- [x] BlackSandr
+- [ ] BlackSandr
 - [x] Linuxoid
 - [x] Belgia
 - [ ] Alice?
-- [ ] Marcela
+- [x] Marcela
 - [ ]
