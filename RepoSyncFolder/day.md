@@ -1,5 +1,5 @@
 ## Just plan
-- [ ] BlackSandr перечит
+- [ ] BlackSandr перечитать новый
 - [x] Linuxoid
 - [x] Belgia
 - [ ] Alice? STAR 
