@@ -1,3 +1,3 @@
 ## Just plan
 - [ ] marcela
-- [ ]
+- [ ] физика
