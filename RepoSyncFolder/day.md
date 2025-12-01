@@ -1,4 +1,5 @@
 ## Just plan
 - [ ] купить ручки
 - [ ] написать сочинение
-- [ ] купить wireless usb-t
+- [ ] купить wireless usb-typec
+- [ ]
