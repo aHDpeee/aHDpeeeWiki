@@ -4,4 +4,5 @@
 	- [ ] [засчетчил так сказать](https://youtu.be/hyQ5MCFUv7M?si=cmyyXUv0SDYrKLoW)
 	- [ ] [наконец-то мои виджеты обретут смысл и на телефоне!!!](https://apt.izzysoft.de/packages/de.yukigasai.obsidiantodowidget)
 
-- [ ] информатик
+- [ ] лб
+- [ ]
