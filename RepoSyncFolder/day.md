@@ -5,4 +5,4 @@
 	- [ ] [наконец-то мои виджеты обретут смысл и на телефоне!!!](https://apt.izzysoft.de/packages/de.yukigasai.obsidiantodowidget)
 
 - [ ] душа
-- [ ]
+- [ ] нот
