@@ -1,7 +1,7 @@
 - [x] https://www.telefonica100.com/en/memorabilia
 - [ ] https://www.webbyawards.com/
 - [ ] [Title Unavailable \| Site Unreachable](https://ualinux.com/en/stream/remix-os-android-dlya-pc)
-- [ ] [Fetching Title#b0qd](https://isearchfrom.com/)
+- [ ] [Google Search from Different Location \| ISearchFrom](https://isearchfrom.com/)
 - [ ] simple time tracker
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
