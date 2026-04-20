@@ -1,10 +1,12 @@
-- [ ] [Title Unavailable \| Site Unreachable](https://wigglypaint.com/)
 - [x] https://www.telefonica100.com/en/memorabilia
 - [ ] https://www.webbyawards.com/
+- [ ] [Title Unavailable \| Site Unreachable](https://ualinux.com/en/stream/remix-os-android-dlya-pc)
+- [ ] 
+- [ ] simple time tracker
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
-- [ ] [[MyStudiingWay/Разговоры с ии которые того стоят/Почему стихи|Почему стихи]]
+- [ ] [[Разговоры с ии которые того стоят/Почему стихи|Почему стихи]]
 - [ ] https://futureboy.us/stegano/
 - [ ] voice acces on windows
 - [x] https://histography.io/
