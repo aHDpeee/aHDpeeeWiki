@@ -2,7 +2,7 @@
 - [ ] https://www.webbyawards.com/
 - [ ] [Title Unavailable \| Site Unreachable](https://ualinux.com/en/stream/remix-os-android-dlya-pc)
 - [ ] [Google Search from Different Location \| ISearchFrom](https://isearchfrom.com/)
-- [ ] [Title Unavailable \| Site Unreachable](https://searchwhisperer.ai/)
+- [ ] [Title Unavailable \| Site Unreachable](https://searchwhisperer.ai/)x
 - [ ] simple time tracker
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
