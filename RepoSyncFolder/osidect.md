@@ -4,6 +4,7 @@
 - [ ] [Google Search from Different Location \| ISearchFrom](https://isearchfrom.com/)
 - [ ] [Title Unavailable \| Site Unreachable](https://searchwhisperer.ai/)x
 - [ ] simple time tracker
+- [ ] https://youtube.com/shorts/VBC2_3K9XTQ?si=bMsRCmy6y_hCS1go
 - [x] [Ты и 10 твоих клонов \| The Alters - YouTube](https://www.youtube.com/watch?v=fvgywhaU0I8&t=7826s)
 - [ ] endel
 - [ ] [random sprite generator](https://lospec.com/procedural-pixel-art-generator/)
