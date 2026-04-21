@@ -34,7 +34,7 @@
 
 ---
 # Фильмы
-**Услышал..** *Пушки Акимбо*, **
+**Услышал..** *Пушки Акимбо*, *[Peter Weir - Wikipedia](https://en.wikipedia.org/wiki/Peter_Weir#Filmography)*
 
 **Поискать..**: 
 
