@@ -1,9 +1,9 @@
 - [x] https://www.telefonica100.com/en/memorabilia
 - [ ] https://www.webbyawards.com/
+- [ ] [Зачем я засоряю свой Linux ЭТИМ? - YouTube](https://www.youtube.com/watch?v=g5xQW2JiH3Q&t=19)
 - [ ] chara say
 - [ ] cool-retro-tern
 - [ ] ascii-patrol
-- [ ] [Зачем я засоряю свой Linux ЭТИМ? - YouTube](https://www.youtube.com/watch?v=g5xQW2JiH3Q&t=19)
 - [ ] art time 
 - [ ] [Title Unavailable \| Site Unreachable](https://ualinux.com/en/stream/remix-os-android-dlya-pc)
 - [ ] [Google Search from Different Location \| ISearchFrom](https://isearchfrom.com/)
