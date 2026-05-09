@@ -164,18 +164,6 @@ main_web page
 телеграм бот на c++ / c???
 
 ---
-плеер!!! 
+[extra thing for my immersive setup](https://www.youtube.com/shorts/WD5XC76QjlE)
+launching steam games (or smthing else) by plugin floppydisk!! would be great for my music setup!! or mp3 player can be as immersive?
 
----
-приложение для оформления цитат
-
----
-мессенджер
-
----
-читать с музыкальным фоном подготовленным автором
-
----
-проект скучаю-разлука 
-
----
