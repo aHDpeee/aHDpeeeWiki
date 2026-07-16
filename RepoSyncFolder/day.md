@@ -4,4 +4,4 @@
 - [ ] university
 - [ ] Knaz
 - [ ] malaleika message
-- [ ] rich l
+- [ ] rich kit
