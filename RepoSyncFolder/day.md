@@ -4,6 +4,6 @@
 - [ ] university
 - [ ] Knaz
 - [ ] malaleika message
-- [ ] rich kit community
+- [ ] rich kir community
 - [ ] mp3 time
 - [ ]
