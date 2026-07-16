@@ -3,3 +3,4 @@
 - [ ] keyboard
 - [ ] university
 - [ ] Knaz
+- [ ] malal
