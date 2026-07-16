@@ -6,4 +6,4 @@
 - [ ] malaleika message
 - [ ] rich kir community
 - [ ] mp3 time
-- [ ] 3dprinter
+- [ ] 3d printer
