@@ -3,4 +3,4 @@
 - [ ] keyboard
 - [ ] university
 - [ ] Knaz
-- [ ] malaleika messa
+- [ ] malaleika message
